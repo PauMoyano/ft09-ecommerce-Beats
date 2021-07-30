@@ -1,0 +1,88 @@
+.--Cart-product {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.--Cart-title h1{
+    color: white;
+}
+
+.--Cart-title{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+}
+
+.--Cart-items {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.empy-cart {
+    color: white;
+}
+
+.--ItemCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(44, 43, 43);
+}
+
+.--ItemCard-left img {
+    width: 90px;
+    border-radius: 5px;
+}
+
+.--ItemCard-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.--ItemCard-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.--ItemCard-data {
+    margin-left: 5px;
+}
+
+.--ItemCard-data h2 {
+    margin: 0px;
+    color: white;
+}
+
+.--ItemCard-data p {
+    margin: 0px;
+    color: white;
+}
+
+.--ItemCard span {
+    margin-left: 10px;
+    color: white;
+}
+
+.--ItemCard-deletItem:hover {
+    color: red;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
+.--ItemCard-editItem:hover {
+    color: rgb(21, 255, 0);
+    cursor: pointer;
+    font-size: 1.8rem;
+}

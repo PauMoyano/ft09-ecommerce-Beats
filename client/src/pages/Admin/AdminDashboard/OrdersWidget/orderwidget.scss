@@ -1,0 +1,50 @@
+$cart-color:linear-gradient(180deg, rgba(1,1,0,0) 0%, rgba(183,133,223,1) 27%, rgba(152,56,231,1) 55%, rgba(124,12,216,1) 93%);
+$create-color: linear-gradient(180deg, rgba(1,1,0,0) 0%, rgba(129,31,186,1) 27%, rgba(90,8,138,1) 55%, rgba(59,8,89,1) 93%);
+$process-color: linear-gradient(180deg, rgba(1,1,0,0) 0%, rgba(49,120,187,1) 27%, rgba(34,104,171,1) 55%, rgba(10,72,131,1) 93%);
+$cancel-color:linear-gradient(180deg, rgba(1,1,0,0) 0%, rgba(167,27,62,1) 27%, rgba(128,8,38,1) 55%, rgba(91,6,27,1) 93%);
+$complete-color: linear-gradient(180deg, rgba(1,1,0,0) 0%, rgba(36,186,124,1) 27%, rgba(11,141,87,1) 55%, rgba(8,102,63,1) 93%);
+
+@mixin --order-widget-col($color) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0.2em;
+    padding: 0.2em;
+    background: rgb(1,1,0);
+    background: $color;
+    border-radius: 15px;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Goldman";
+    font-size: 3rem;
+}
+@mixin --order-flex-row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;  
+}
+.--order-widget-title{
+    @include --order-flex-row();
+    justify-content: center;
+}
+.--order-widget-main{
+    @include --order-flex-row();
+    justify-content: space-between;   
+}
+.--order-widget-col-cart{
+    @include --order-widget-col($cart-color)
+}
+.--order-widget-col-create{
+    @include --order-widget-col($create-color)
+}
+.--order-widget-col-process{
+    @include --order-widget-col($process-color)
+}
+.--order-widget-col-cancel{
+    @include --order-widget-col($cancel-color)
+}
+.--order-widget-col-complete{
+    @include --order-widget-col($complete-color)
+}

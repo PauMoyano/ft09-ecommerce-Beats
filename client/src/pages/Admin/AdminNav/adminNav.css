@@ -1,0 +1,30 @@
+.--admin--main {
+    font-family: 'Oxanium', cursive;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5em;
+}
+
+.--admin--main-btn {
+    border-radius: 11px;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: black;
+    padding: 15px;
+    margin: 5px;
+}
+
+.--admin--main-btn:hover {
+    text-decoration: none;
+    background-color: rgb(79, 0, 170);
+    padding: 15px;
+}
+
+.--admin--main-btn-active {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    background: linear-gradient(225deg, rgb(234, 50, 111), rgb(79, 0, 170));
+}

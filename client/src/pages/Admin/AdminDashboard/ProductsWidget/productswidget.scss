@@ -1,0 +1,31 @@
+@mixin --products-widget-col($color) {
+    display: flex;
+    width: 100%;
+    margin: 0.5em;
+    background-color: $color;
+    border-radius: 15px;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Goldman";
+    font-size: 3rem;
+}
+@mixin --products-flex-row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;  
+}
+.--products-widget-title{
+    @include --products-flex-row();
+    justify-content: center;
+}
+.--products-widget-main{
+    @include --products-flex-row();
+    justify-content: space-around;   
+}
+.--products-widget-main-col{
+    p{
+        color:white
+    }
+}

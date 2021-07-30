@@ -1,0 +1,39 @@
+.--ResultCardUser{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
+}
+.--ResultCardUser-content{
+    display: flex;
+    flex-direction: row;
+}   
+.--ResultCardUser-img img{
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.--ResultCardUser-info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.--ResultCardUser-info-name a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Oxanium', cursive;
+    font-size: 1.7rem;
+    margin: 10px;
+}
+
+.--ResultCard-cartIcon{
+    color: white;
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+.--ResultCard-cartIcon:hover{
+    color: rgb(216, 32, 216);
+}
+.--ResultCard-cartIcon:active{
+    color: rgb(85, 12, 85);
+}

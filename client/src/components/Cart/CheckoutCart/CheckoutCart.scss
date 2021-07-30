@@ -1,0 +1,104 @@
+$container-row: row;
+$container-column: column;
+$text-color-primary: white;
+$text-color-secondary: rgb(197, 7, 150);
+@mixin container($container-type) {
+    display: flex;
+    flex-direction: $container-type;
+}
+@mixin content-center {
+    justify-content: center;
+    align-items: flex-start;
+}
+.--CheckoutCart{
+    @include container($container-row);
+    margin-top: 4em;
+    justify-content: center;
+}
+.--CheckoutCart-loading{
+    @include container($container-row);
+    @include content-center;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    z-index: 99;
+}
+.--CheckoutCart-main{
+    @include container($container-column);
+    h1 {
+        color: $text-color-primary;
+        font-family: 'Goldman', cursive;
+    }
+    h2 {
+        color: $text-color-primary;
+        font-family: 'Goldman', cursive;
+    }
+    span {
+        color: $text-color-primary;
+        margin: 10px;
+        font-family: 'Oxanium', cursive;
+    }
+    p {
+        color: $text-color-secondary;
+        font-size: 1.8rem;
+        margin: 10px;
+        font-family: 'Oxanium', cursive;
+    }
+}
+.--CheckoutCart-main-detail{
+    @include container($container-row);
+    justify-content: space-between;
+    align-items: center;
+    i {
+        color:$text-color-primary;
+        font-size: 1.6rem;
+        cursor: pointer;
+        &:hover{
+            color:$text-color-secondary;
+        }
+    }
+}
+.--CheckoutCart-main-item{
+    @include container($container-row);
+    justify-content: space-between;
+    margin: 5px;
+}
+.--CheckoutCart-main-item-detail{
+    @include container($container-column);
+}
+.--CheckoutCart-main-company{
+    @include container($container-row);
+    justify-content: space-between;
+}
+.--CheckoutCart-main-header{
+    @include container($container-row);
+    justify-content: space-between;
+    border-bottom: 2px dotted white;
+}
+.--CheckoutCart-main-total{
+    @include container($container-row);
+    border-top: 2px dotted white;
+    justify-content: space-between;
+}
+.--CheckoutCart-main-button{
+    display: flex;
+    justify-content: center;
+    a {
+        text-decoration: none;
+        color: $text-color-primary;
+        border: 1px solid $text-color-secondary;
+        border-radius: 5px;
+        padding: 7px 10px;
+        font-family: 'Oxanium', cursive;
+    }:hover{
+        background-color: rgb(68, 3, 68);
+    }:active{
+        background-color: rgba(68, 3, 68, 0);
+        border: 1px solid rgba(0, 0, 0, 0);
+    }
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.--hidden{
+    display: none;
+}

@@ -1,0 +1,318 @@
+{
+    "title": "This is de Title in inglish",
+    "title2":"The Best Pop Beats",
+    "catalog":"Catalog",
+    "homeHeader":{
+      "catalog":"Catalog",
+      "login":"Login",
+      "register":"Register"
+    },
+    "headers":{
+      "homeHeader":{
+        "title": "BeatStore",
+        "catalog":"Catalog",
+        "oferts":"Oferts",
+        "ranking": "Ranking",
+        "login":"Login",
+        "menu":"Menu"
+      },
+      "headerPages":{
+        "home":"Home",
+        "catalog":"Catalog",
+        "login":"Login",
+        "oferts":"Oferts",
+        "ranking": "Ranking",
+        "register":"Register",
+        "searchInput":"Search"
+      },
+      "adminHeader":{
+        "configuration":"Configuration",
+        "catalog":"Catalog",
+        "oferts":"Oferts",
+        "ranking": "Ranking",
+        "home":"Home",
+        "adminNav": {
+          "adminDashboard": "Admin Dashboard",
+          "listBeats": "List Beats",
+          "addBeats": "Add Beats",
+          "listGenre": "List Musical Genres",
+          "addGenre": "Add Genres",
+          "listUsers": "List Users",
+          "orderList": " Order List"         
+        }
+      }
+    },
+    "page":{
+      "oferts":{
+        "title": "Oferts",
+        "day": "offers of the day",
+        "week": "deals of the week",
+        "month": "offers of the month",
+        "season": "seasonal offers",
+        "holiday": "vacation deals"
+      },
+      "home":{
+        "MiddleSearchBar":"Search",
+        "sliders":{
+          "1":"All beats",
+          "2":"The most views ones",
+          "3":"Beat Beat",
+          "4":"Smug Blues",
+          "5":"The most of Rock",
+          "6":"Don't stop the music Dance",
+          "7":"Shuffle House",
+          "noBeats":"No Beats"
+        }, 
+        "subscriptions":{
+          "title":"Subscriptions Section",
+          "rat":{
+            "title":"Rat Subscription",
+            "list":{
+              "1":"Free",
+              "2":"Up to 10 tracks",
+              "3":"Upload Track Stems",
+              "4":"Instant Payments",
+              "5":"Accept PayPal payments",
+              "6":"Accept Stripe payments"
+            }
+          },
+          "monkey":{
+            "title":"Monkey Subscription",
+            "list":{
+              "1":"All free features",
+              "2":"plus feactures:",
+              "3":"Unlimited tracks",
+              "4":"20 Monthly Private Messages",
+              "5":"Sell Sound Kits",
+              "6":"Sell Custom Services"
+            }
+          },
+          "cougar":{
+            "title":"Cougar Subscription",
+            "list":{
+              "1":"All Monkey features",
+              "2":"100% of Revenue to Seller",
+              "3":"Unlimited Private Messages",
+              "4":"Unlimited Number of License",
+              "5":"2 Submissions per Opportunity",
+              "6":"Sell Custom Services"
+            }
+          },
+          "lion":{
+            "title":"Lion Subscription",
+            "list":{
+              "1":"All Monkey features",
+              "2":"100% of Revenue to Seller",
+              "3":"Unlimited Private Messages",
+              "4":"Unlimited Number of License",
+              "5":"2 Submissions per Opportunity",
+              "6":"Sell Custom Services"
+            }
+            
+          },
+          "button":"Subscribe"
+        }  
+      },     
+       "profile":{
+        "title": "¡You not have an account!",
+        "subtitle": "Please register now",
+        "button": "Go to login",
+        "buttonSecond": "Go to register",
+        "profileCard": {
+          "editButton": "Edit Account",
+          "logout": "Logout"
+        },
+        "tabUser":{
+          "purchases": "My purchases",
+          "coments": "My Comments",
+          "componentPurchases": "COMPONENT PURCHASES",
+          "componentComments": "COMPONENT COMMENT"
+        }
+      },
+      "catalog":{
+        "title":"Generes"
+      },
+      "product":{
+        "relatedTracks":"Related Tracks",
+        "comments":"Comments",
+        "fans":"Fans"
+      },
+      "cart":{
+        "title":"Cart Review",
+        "noItems":"You don't have items in cart",
+        "summary":"Cart Summary",
+        "promoCodeTitle":"Got promo code?",
+        "promoCodeInput":"Type Code",
+        "promoCodeButton":"Apply",
+        "subtotal":"Subtotal",
+        "discount":"Discount",
+        "total":"Total",
+        "checkout":"Checkout",
+        "alerts":{
+          "emptyCart":{
+            "title":"Are you sure?",
+            "text":"you are about to empty the cart!",
+            "cartEmpty":"the cart has been emptied!",
+            "cartSafe":"your cart is safe!",
+            "btn":"Empty Cart",
+            "noItems":"You don't have items in cart"
+
+          },
+          "emptyItem":{
+            "title":"Are you sure?",
+            "text":"you are about to remove the product from the cart!",
+            "cartEmpty":"the product has been removed from the cart!",
+            "cartSafe":"the product has not been removed!!"
+
+          }
+        }
+      },
+      "login":{
+        "title":"Sign in to continue",
+        "emailTitle":"Email",
+        "emailPlaceholder":"Type Your Email",
+        "passwordTitle":"Password",
+        "passwordPlaceholder":"Type You Password",
+        "signinButton":"Sign In",
+        "dontAcount":"Don't have an account?",
+        "forgotPassword":"Forgot your password?",
+        "signupButton":"Sign Up"
+      },
+      "register":{
+        "title":"Sign up",
+        "emailTitle":"Email",
+        "emailPlaceholder":"Type Your Email",
+        "usernameTitle":"Username",
+        "usernamePlaceholder":"Type Your Username",
+        "passwordTitle":"Password",
+        "passwordPlaceholder":"Type Your Password",
+        "confirmPasswordTitle":"Confirm Password",
+        "confirmPasswordPlaceholder":"Type Your Password",
+        "signupButton":"Sign Up",
+        "haveAcount":"Already have an account?",
+        "signinButton":"SignIn"
+      },
+      "resetPass":{
+        "line1": "To reset your password",
+        "line2": "we will send you a code",
+        "line3": "to your mail inbox",
+        "email":{
+          "title": "Email",
+          "placeholder": "Type your Email"
+        },
+        "code": "Send code"
+      },
+      "Code":{
+        "line1": "First, insert your reset code",
+        "line2": "then, insert your new password",
+        "titleLabel": "Reset Code",
+        "password1": "New password",
+        "confirm1": "Confirm password",
+        "placeholder":{
+          "reset": "Type your code",
+          "password2": "Type your new password",
+          "confirm2": "Confirm your new password"
+        },
+        "password3": "Reset password",
+        "back": "Back to sing in"
+      },
+      "admin":{
+        "title":"Administration",
+        "forms":{
+          "addBeats":{
+            "title":"Complete product data:",
+            "name":"Name",
+            "tone":"Tone",
+            "description":"Description",
+            "artist":"Artist",
+            "date":"Realease Date",
+            "price":"Price",
+            "bpm":"Bpm",
+            "image":"Select Image",
+            "audio":"Select Audio",
+            "categories":"Categories",
+            "addBeatButton":"Add Beat",
+            "saveBeatButton":"Save Beat",
+            "notes":{
+              "c":"C",
+              "d":"D",
+              "e":"E",
+              "f":"F",
+              "g":"G",
+              "a":"A",
+              "b":"B"
+            },
+            "errors":{
+              "inpName":"name is required",
+              "inpDescription":"description is required",
+              "inpArtist":"artist is required",
+              "inpPrice":"price is required",
+              "inpBpm":"bpm is required",
+              "inpDate":"date is required",
+              "inpTone":"tone is required",
+              "inpValidDate":"insert a valid date!",
+              "inpImage":"image is required",
+              "inpAudio":"audio is required"
+            }
+          },
+          "addGen":{
+            "title": "Complete form",
+            "titleEdit":"Edit Genre",
+            "submitEdit":"Edit Genre",
+            "name": "Name",
+            "description": "Description",
+            "submit": "Add Genre",
+            "errorName": "the name is required",
+            "errorDescription":"the description is required",
+            "placeholderOne": "type the category name",
+            "placeholderTwo": "type the description here"
+        },
+        "addOfert":{
+          "title": "Add Ofert",
+          "name": "Name",
+          "discount": "Discount",
+          "submit": "Add ofert",
+          "mode":{
+            "title":"Ofert mode",
+            "1":"none",
+            "2":"day",
+            "3":"week",
+            "4":"month",
+            "5":"season",
+            "6":"holiday" 
+          },
+          "error":{
+            "name":"the name is required",
+            "discount":"the camp discount is required"
+          },
+          "placeholderOne": "name ofert here",
+          "placeholderTwo": "discount ofert here"
+        }
+        }
+      }
+    }, 
+    "components":{
+      "beatComponent":{
+        "buttonCart": "Add to Cart $",
+        "artist": "Artist: ",
+        "p": "Product not found",
+        "option":{
+          "text": "¡Thanks for you like!"
+        }
+      },
+      "beatComponentInput":{
+        "commentAdd": "Sign in to leave a comment"
+      },
+      "profile":{
+        "orderCard":{
+          "created":"Created: ",
+          "order": "Order number: ",
+          "price": "Price :",
+          "quantity": "Products: ",
+          "status": "Status: "
+        },
+        "button": "Details"
+      }
+
+    } 
+}

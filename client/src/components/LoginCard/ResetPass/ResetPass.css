@@ -1,0 +1,205 @@
+.--ResetCard{
+    width: 100%;
+    display: flex;
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+.--ResetAllCard{
+    width: 30em;
+    background-color: rgba(86, 9, 175, 0.527);
+    border-radius: 10px;    
+    box-shadow: 0px 0px 10px rgb(137, 76, 206);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 30px;
+}
+.--Reset-flags{
+    padding-right: 2em;
+    padding-left: 2em;
+    cursor: pointer;
+    align-self: center;
+}
+.--Reset-flags:hover{
+    position: relative;
+    bottom: 2px;
+}
+.--Reset-logo{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: content-box;
+    justify-content: center;
+    font-family: "Goldman";
+    color: antiquewhite;
+    align-self: center;
+
+}    
+.--Reset-logo-col{
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.--ResetAllCard h2{
+    text-align: center;
+    font-family: "Goldman";
+    font-size: 1.2rem;
+    color: white;
+}
+.--ResetPass{
+    width: 70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    padding-top: 1em;
+    text-align: center;
+}
+.--RPInput{
+    width: 100%;
+    min-height: 2.5em;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.3em;
+}
+.--RPInput::placeholder{
+    text-align: center;
+    font-family: 'Oxanium', cursive;
+    color: white;
+}
+.--RPInput:active{
+    border: 2px solid rgb(70, 10, 139);
+    min-height: 2.5em;
+    color: white;
+}
+.--RPInput:valid{
+    background-color: rgb(19, 18, 18);
+    border: 2px solid rgb(70, 10, 139);
+    min-height: 2.5em;
+    color: white;
+}
+.--RPInput:invalid{
+    background-color: rgb(19, 18, 18);
+    border: 2px solid rgb(136, 18, 128);
+    color: white;
+}
+.--RPInput::placeholder{
+    text-align: center;
+    color: gray;
+    color: white;
+}
+
+
+.--RPButtons{
+    display:flex;
+    justify-content: center;
+}
+.--Reset-link{
+    text-decoration: none;
+    color: white;
+}
+.--RPButtons button{
+    width: 60%;
+    height: 45px;
+    font-size: 1rem;
+    margin: 5px 1px 5px ;
+    padding: 0px 12px;
+    font-family: 'Oxanium', 'cursive';    
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(136, 18, 128);
+    border-radius: 5px;
+    margin-top:20px;
+    margin-bottom:15px;
+    cursor:pointer;
+    outline: none;
+}
+.--RPButtons button:hover{
+    background: linear-gradient(45deg, rgb(45, 9, 55), rgb(87, 20, 82));
+}
+.--RPButtons button:active{
+   
+    background: linear-gradient(45deg, rgb(26, 3, 32), rgb(42, 11, 40));
+}
+
+.Link{
+    display:flex;
+    justify-content: center;
+    padding-top: 5px;
+    width: 100%;
+    font-family: "Goldman";    
+    font-weight: bold;
+    color: rgb(141, 129, 129);
+    text-shadow: 0px 0px 5px rgb(70, 10, 139);
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+@media(max-width:499px){
+    .--ResetAllCard{
+        width: 90%;
+    }
+    .--Reset-link img{
+        width: 45px;
+        height: 35px;
+    }
+    .--Reset-link h1{
+        font-size: 1.6rem;
+    }
+    .--Reset-flags{
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    .--Reset-flags img{
+        width:30px;
+        height: 30px;
+    }
+    .--ResetAllCard h2{
+        font-size: 1.3rem;
+    }
+    .--RPButtons button{
+        width: 65%;
+        font-size: 1.2rem;
+
+    }
+
+}
+
+.--RPInput-num{
+    width: 100%;
+    min-height: 2.5em;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.3em;
+}
+.--RPInput-num::placeholder{
+    text-align: center;
+    font-family: 'Oxanium', cursive;
+    color: white;
+}
+.--RPInput-num:active{
+    border: 2px solid rgb(70, 10, 139);
+    min-height: 2.5em;
+    color: white;
+}
+.--RPInput-num:valid{
+    background-color: rgb(19, 18, 18);
+    border: 2px solid rgb(70, 10, 139);
+    min-height: 2.5em;
+    color: white;
+}
+.--RPInput-num:invalid{
+    background-color: rgb(19, 18, 18);
+    border: 2px solid rgb(136, 18, 128);
+    color: white;
+}
+.--RPInput-num::placeholder{
+    text-align: center;
+    color: gray;
+    color: white;
+}

@@ -1,0 +1,150 @@
+.--edit-profile-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.--edit-profile-main h1{
+    color:white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxanium';
+}
+.--edit-profile-main-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #5b115f60;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    min-height: 150px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    padding-bottom: 3em;
+}
+
+.--edit-profile-main-photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+}
+.--edit-profile-main-photo-upload{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    color: aliceblue;
+}
+.--edit-profile-main-photo-upload input{
+
+    display: none;
+    
+}
+.--edit-profile-main-inputs{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    min-height: 40px;
+    background-color:rgb(35, 6, 43) ;
+    color: white;
+
+}
+.--edit-profile-main-inputs:disabled{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    min-height: 40px;
+    background-color:rgb(26, 4, 38) ;
+    text-decoration: line-through;
+    &:hover{
+        background-color:rgb(26, 4, 38) ;
+    }
+}
+.--edit-profile-main-inputs:hover{
+   background-color: rgb(54, 12, 65);
+   color: white;
+}
+.--edit-profile-main-inputs::placeholder{
+    color: white;
+ }
+.--edit-profile-main-inputs:active{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    min-height: 40px;
+}
+.--edit-profile-main-photo-upload-img{
+    border-radius: 50%;
+    width: 170px;
+    height: 150px;
+}
+.--edit-profile-main-photo-upload-img:hover{
+    filter: grayscale(100);
+    border: 1px solid white;
+}
+.--edit-profile-main-photo-upload h3{
+    color: aliceblue;
+    background-color: darkmagenta;
+    padding: 0.2em;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    font-family: 'Oxanium','cursive';
+}
+.--edit-profile-main-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.--edit-profile-main-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+}
+
+.--edit-profile-main-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+.--edit-profile-main-buttons-save{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(61, 4, 61);
+    outline: none;
+    color: white;
+    border: none;
+    margin: 0.3em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.--edit-profile-main-buttons-cancel{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(59, 11, 79);
+    outline: none;
+    color: white;
+    border: none;
+    margin: 0.3em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.--edit-profile-main-buttons-cancel:hover{
+    background-color: rgb(50, 8, 80);
+}
+.--edit-profile-main-buttons-save:hover{
+    background-color: rgb(85, 5, 85);
+}

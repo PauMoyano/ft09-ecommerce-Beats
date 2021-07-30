@@ -1,0 +1,162 @@
+.--RegisterCard{
+    width: 100%;
+    display: flex;
+    height: 40em;
+    
+}
+.--RegisterCardAll h2{
+    text-align: center;
+    color: rgb(141, 129, 129);
+    text-shadow: 0px 0px 5px rgb(70, 10, 139);
+    height: 40em;
+}
+.--register-Link{
+    text-decoration: none;
+}
+.--login-logo-col h1, .--login-logo-col img{
+    cursor: pointer;
+}
+.--RegisterCardAll{
+    width: 30em;
+    background-color: rgba(86, 9, 175, 0.527);
+    border-radius: 10px;    
+    box-shadow: 0px 0px 10px rgb(137, 76, 206);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 30px;
+}
+
+.--RegisterCard-form{
+    width: 75%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 1.1em;
+}
+.--RegisterCard-form-input{
+    width: 60%;
+    height: 2.5em;
+    margin-bottom: 0px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.3em;
+    padding: 0 0 0 5px;
+}
+.--register-flags{
+    align-self: center;
+    padding-right: 2em;
+    padding-left: 2em;
+    cursor: pointer;
+}
+.--register-flags:hover{
+    position: relative;
+    bottom: 2px;
+}
+.--RegisterCard-form-input:active{
+    background-color: white;
+}
+.--RegisterCard-form-input:valid{
+    background-color: rgb(19, 18, 18);
+    border: 1px solid rgb(70, 10, 139);
+}
+.--RegisterCard-form-input:invalid{
+    background-color: rgb(19, 18, 18);
+    border: 1px solid rgb(136, 18, 128);
+}
+.--RegisterCard-form-input::placeholder{
+    text-align: center;
+    font-family: 'Oxanium', cursive;
+    color: rgba(211, 192, 231, 0.327);
+}
+
+.--RegisterCard-form button{
+    width: 50%;
+    height: 2em;
+    font-size: 1.3rem;
+    margin: 5px 1px 5px ;
+    padding: 0px 12px;
+    font-family: 'Oxanium', 'cursive';    
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(136, 18, 128);
+    border-radius: 5px;
+    margin-top:20px;
+    margin-bottom:5px;
+    cursor:pointer;
+    outline: none;
+}
+.--RegisterCard-form button:hover{
+    border:2px solid rgb(72, 43, 150);
+}
+.danger {
+    color: #d4c;
+    font-size: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.foots{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.Link{
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgb(141, 129, 129);
+    text-shadow: 0px 0px 5px rgb(70, 10, 139);
+}
+.Link:hover{
+    color: white;
+
+}
+.signups{
+    width:30%;  
+    text-decoration: none;
+    color:white;
+    border: 2px solid rgb(70, 10, 139);
+    border-radius: 5px;
+    padding: 3px;
+    margin-top:8px;
+    padding-bottom: 8px;
+
+}
+@media(max-width:499px){
+    .--RegisterCardAll{
+        width: 90%;
+    }
+    .--register-Link img{
+        width: 45px;
+        height: 35px;
+    }
+    .--register-Link h1{
+        font-size: 1.7rem;
+    }
+    .--register-flags {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    .--register-flags img{
+        width:30px;
+        height: 30px;
+    }
+    .--RegisterCard-form button{
+        width: 50%;
+        font-size: 1.3rem;
+
+    }
+    .Link{
+        font-size: 1.1rem;
+    }
+    .--RegisterCard-form-input{
+        width: 90%;
+        font-size: 1.1rem;
+    }
+    .name{
+        font-size: 1.3rem;
+    }
+}

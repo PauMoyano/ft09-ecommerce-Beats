@@ -1,0 +1,299 @@
+/* rgb(234, 50, 111) naranha
+rgb(79, 0, 170) violeta */
+.divider {
+  min-height: 150px;
+}
+.subContainer h2 {
+  color: aliceblue;
+  font-family: 'Goldman';
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1em;
+}
+.all--container-form{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background: rgb(1,1,0);
+  background: linear-gradient(180deg, rgba(1,1,0,0) 0%, rgba(47,2,48,1) 27%, rgba(69,4,99,1) 55%, rgba(104,6,104,1) 93%);
+  border-radius: 1em;
+}
+.all--container-form form{
+  width: 100%;
+  border: none;
+}
+.container {
+  border-radius: 1em;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.column-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 1em;
+  background-color: transparent;
+}
+.column-1 label, .column-2 label {
+  color: white;
+  font-size: 1rem;
+  margin-top: 1em;
+  text-align: center;
+  font-family: 'Oxanium', cursive;
+}
+.all--container-form input{
+  outline: none;
+  color:white;
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #777777;
+  width: 80%;
+  height: 2em;
+}
+.all--container-form textarea {
+  outline: none;
+  color:white;
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #777777;
+  width: 80%;
+  height: 4em;
+}
+.all--container-form input::placeholder, textarea::placeholder{
+  color:rgb(228, 140, 140);
+  font-size: 0.8rem;
+  font-family: 'Oxanium';
+  text-align: center;
+  -webkit-animation: tiembla 0.2s;
+  animation: tiembla 0.2s;
+}
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 1em;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: transparent;
+}
+.basic-multi-select input {
+  outline: none;
+  background-color: black;
+}
+.submitbuton { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 50%;
+  background: linear-gradient(225deg, rgb(234, 50, 111), rgb(79, 0, 170));
+  color: white;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.submitbuton:hover {
+  background: linear-gradient(25deg, rgb(234, 50, 111), rgb(79, 0, 170));
+}
+.submitbuton:active {
+  outline: none;
+  background: rgb(79, 0, 170);
+}
+.--price--bpm{
+  display: flex;
+  flex-direction: row;
+}
+.--price--bpm div{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.--edit-submitbuton-new:active {
+  box-shadow: none;
+}
+p.danger {
+  color:rgb(228, 140, 140);
+  font-size: 0.8rem;
+  font-family: 'Oxanium';
+  text-align: center;
+  -webkit-animation: tiembla 0.2s;
+  animation: tiembla 0.2s;
+}
+input.danger textarea.danger {
+  color:rgb(228, 140, 140);
+  font-size: 0.8rem;
+  font-family: 'Oxanium';
+  text-align: center;
+  -webkit-animation: tiembla 0.2s;
+  animation: tiembla 0.2s;
+}
+
+.--labelImage, .--labelAudio{
+  margin-bottom: 1em;
+}
+.buttonInput::-webkit-file-upload-button {
+  color: white;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-family: 'Oxanium';
+  border: none;
+  outline: none;
+  padding: 0.5em;
+  background: linear-gradient(225deg, rgb(234, 50, 111), rgb(79, 0, 170));
+}
+.buttonInput::-webkit-file-upload-button:hover {
+  background: linear-gradient(25deg, rgb(234, 50, 111), rgb(79, 0, 170));
+  cursor: pointer;
+  outline: none;
+}
+.buttonInput::-webkit-file-upload-button:active {
+  background: rgb(79, 0, 170);
+}
+
+#dateClass {
+  font-size: 1rem;
+  padding: 5px;
+  margin-bottom: 1em;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: rgb(98, 0, 255);
+  border-radius: 5px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
+input[type="number"] {
+  outline: none;
+  background-color: transparent;
+
+}
+input[type="select"] {
+  outline: none;
+  background-color: transparent;
+}
+.radioTone {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.radioColumn {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+.radioColumn input{
+  width: 1em;
+  height: 1em;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+.divButton {
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+.divButton button {
+  color: white;
+  width: 30%;
+  border-radius: 4px;
+  background-color: rgba(51, 3, 45, 0.3);
+  box-shadow: 2px 2px 5px black;
+  border: 3px solid rgb(88, 14, 66);
+  outline: none;
+  padding: 0.2em;
+  font-size: 1.2rem;
+  font-family: 'Oxanium', cursive;
+  cursor: pointer;
+}
+.--edit-submitbuton-new{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    bottom:1em;
+    width:11em;
+    height: 2em;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Oxanium';
+    outline: none;
+    background-color: transparent;
+    border-radius: 0.3em;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+
+.--edit-tone-label{
+  padding-bottom: 1em;
+}
+.--edit-categories-label{
+  padding-bottom: 1em;
+  padding-top: 3em;
+}
+
+.--edit-audio-label, .--edit-image-label{
+  margin-bottom: 1em;
+}
+@-webkit-keyframes tiembla {
+  0%  { -webkit-transform:rotateZ(-5deg); }
+  50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+  100%{ -webkit-transform:rotateZ( 5deg); }
+}  
+@keyframes tiembla {
+  0%  { -webkit-transform:rotateZ(-5deg); }
+  50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+  100%{ -webkit-transform:rotateZ( 5deg); }
+}
+@media(max-width:600px){
+  .all--container-form{
+    width: 90%;
+  }  
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .column-1, .column-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: transparent;
+  }
+  
+}

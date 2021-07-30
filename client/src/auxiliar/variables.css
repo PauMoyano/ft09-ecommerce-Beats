@@ -1,0 +1,4 @@
+:root {
+    --width: 1920px;
+    --height: calc(calc(var(--width)*9)/16);
+}

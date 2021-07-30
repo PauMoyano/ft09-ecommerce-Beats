@@ -1,0 +1,66 @@
+:root{
+    --FansCard-content-username-p: #fff;
+    --FansCard-content-info-p: #ffffff;
+}
+.--FansCard{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 5px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(44, 43, 43);
+    border-left: 2px solid rgba(44, 43, 43, 0);
+    border-right: 2px solid rgba(44, 43, 43, 0);
+}
+.--FansCard:hover{
+    border-bottom: 2px solid rgb(44, 43, 43);
+    border-left: 2px solid rgb(44, 43, 43);
+    border-right: 2px solid rgb(44, 43, 43);
+    background: linear-gradient(45deg, rgb(234, 50, 111), rgba(86, 9, 175, 0.589));
+    border-radius: 10px;
+    padding: 10px;
+    cursor: crosshair;
+    transition: all  0.2s ease-in;
+    margin-left: auto;
+    margin-right: auto;
+}
+.--FansCard-image{
+    padding-left: 10px;
+    align-self: center;
+}
+.--FansCard-image img{
+    width: 60px;
+    border-radius: 50%;
+}
+.--FansCard-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+    margin-right: 10px;
+
+} 
+.--FansCard-content-username{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    margin: 13px 0px 29px 0px;
+    color: var(--FansCard-content-username-p);
+}
+.--FansCard-content-date{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    margin: 13px 0px 29px 0px;
+    font-size: 0.9rem;
+    padding-left: 15px;
+    color: var(--FansCard-content-info-p);
+}
+
+.--FansCard-content-reply-icon{
+    color: white;
+    font-size: 1.8rem;
+}
+.--FansCard-content-reply-icon:hover{
+    color: rgb(116, 112, 116);
+    font-size: 2rem;
+    cursor:pointer;
+}

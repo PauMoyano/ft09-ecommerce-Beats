@@ -1,0 +1,70 @@
+.--ResultCard{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
+}
+.--ResultCard-content{
+    display: flex;
+    flex-direction: row;
+}   
+.--ResultCard-img img{
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.--ResultCard-info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.--ResultCard-info-name a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Oxanium', cursive;
+    font-size: 1.7rem;
+    margin: 10px;
+}
+.--ResultCard-info-artist{
+    margin-bottom: 20px;
+}
+.--ResultCard-info-artist span{
+    color: rgb(161, 161, 161);
+    font-family: 'Oxanium', cursive;
+    font-size: 1rem;
+    margin: 10px;
+}
+.--ResultCard-info-categories span{
+    padding: 5px;
+    margin: 10px;
+    color: rgb(225, 183, 226);
+    font-family: 'Oxanium', cursive;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: rgb(29, 29, 29);
+}
+.--ResultCard-pricing{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.--ResultCard-pricing-price{
+    margin-top: 10px;
+}
+.--ResultCard-pricing-price span{
+    color: white;
+    font-family: 'Oxanium', cursive;
+    font-size: 1.7rem;
+    margin: 10px;
+}
+.--ResultCard-cartIcon{
+    color: white;
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+.--ResultCard-cartIcon:hover{
+    color: rgb(216, 32, 216);
+}
+.--ResultCard-cartIcon:active{
+    color: rgb(85, 12, 85);
+}

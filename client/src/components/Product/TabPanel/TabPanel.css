@@ -1,0 +1,121 @@
+.--TabPanel-div {
+    width: 100%;
+    box-shadow: 10px 10px 10px solid white;
+
+}
+.--TabPanel-div-row{
+    padding-left: 5px;
+    padding-right: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    justify-content: space-between;
+}
+.--TabPanel-div-col{
+    display: flex;
+    min-width: 30%;
+    min-height: 60px;
+    border: 2px solid rgb(46, 44, 44);
+    background-color: #46047262;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 3px;
+}
+.--TabPanel-div-col p{
+    font-size: 1.5rem;
+    color: antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.--TabPanel-div-col:hover{
+    background-color:#ee05cf9f;
+    transition-duration: 0.3s ;
+    
+    transition-property: background;
+    transition-timing-function: ease-in;
+    cursor:pointer;
+}
+.--TabPanel-div-col-active p{
+    font-size: 1.5rem;
+    color: antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.--TabPanel-div-col-active{
+    display: flex;
+    min-width: 33%;
+    min-height: 60px;
+    border: 2px solid rgb(224, 223, 223);
+    justify-content: center;
+    align-content: center;
+    background-color: #ee05cf79;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.--TabPanel-div-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+.--TabPanel-div-container-col{
+    display: none;    
+}
+
+.--TabPanel-div-container-col-active{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    border: 1px solid black;
+    padding: 5px;
+}
+
+@media(max-width:700px){
+    .--TabPanel-div-col p{
+        font-size: 1rem;
+        color: antiquewhite;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .--TabPanel-div-col-active p{
+        font-size: 1rem;
+        color: antiquewhite;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+
+@media(max-width:530px){
+    .--TabPanel-div-row{
+        flex-direction: column;
+    }
+
+    .--TabPanel-div-col p{
+        font-size: 1.5rem;
+        color: antiquewhite;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .--TabPanel-div-col-active p{
+        font-size: 1.5rem;
+        color: antiquewhite;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .--TabPanel-div-col-active{
+        display: flex;
+        min-width: 33%;
+        min-height: 40px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: none;
+        justify-content: center;
+        align-content: center;
+        background-color: #ee05cf79;
+        align-items: center;
+        border-radius: 10px;
+    }
+}

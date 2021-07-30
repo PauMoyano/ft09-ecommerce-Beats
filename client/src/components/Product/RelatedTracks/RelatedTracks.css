@@ -1,0 +1,105 @@
+.--RelatedTracks-main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95%;
+    height: auto;
+    background: linear-gradient(#2221229f, #8708db62);
+    border-radius: 15px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.--RelatedTracks-main:hover{
+    border-bottom: 2px solid rgb(44, 43, 43);
+    border-left: 2px solid rgb(44, 43, 43);
+    border-right: 2px solid rgb(44, 43, 43);
+    background: linear-gradient(45deg, rgb(234, 50, 111), rgba(86, 9, 175, 0.589));
+    border-radius: 10px;
+    padding: 10px;
+    cursor: crosshair;
+    transition: all  0.2s ease-in;
+    margin-left: auto;
+    margin-right: auto;
+}
+.--RelatedTracks-main-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:flex-start;
+}
+.--RelatedTracks-main-col-play{
+    display: flex;
+    width: auto;
+    padding-left: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.play-icon{
+    font-size: 3rem;
+}
+.--RelatedTracks-main-col-img{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.--RelatedTracks-main-col-text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-content: center;
+    align-items: left;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.--RelatedTracks-main-col-text h3{
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+    font-size: 2rem;
+}
+.--RelatedTracks-main-col-text p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.1rem;
+}
+.--RelatedTracks-main-col-menu{
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    
+}
+.--RelatedTracks-main-col-menu-btn-b button{
+    margin-right: 30px;
+    background-color: rgb(73, 9, 133);
+    border-radius: 10px;
+    padding: 15px;
+    color: antiquewhite;
+    height: auto;
+    width: 150px;
+    font-size: 1.3rem;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+.--RelatedTracks-main-col-menu-btn-b button:hover{
+
+    background-color: rgb(101, 15, 182);
+    box-shadow: 0px 0px 15px black;
+
+}
+.--RelatedTracks-main-col-menu-btn-b button:active{
+
+    background-color: rgb(137, 11, 141);
+    box-shadow: none;
+
+}

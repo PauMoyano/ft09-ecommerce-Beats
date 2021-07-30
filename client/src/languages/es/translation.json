@@ -1,0 +1,312 @@
+{
+    "title": "Este es el titulo en español",
+    "title2":"Los mejores Beats de la Musica Pop",
+    "catalog":"Catalogo",
+    "headers":{
+      "homeHeader":{
+        "title": "BeatStore",
+        "catalog":"Catalogo",
+        "oferts":"Ofertas",
+        "ranking": "Ranking",
+        "login":"Ingresar",
+        "menu":"Menu"
+      },
+      "headerPages":{
+        "home":"Inicio",
+        "catalog":"Catalogo",
+        "login":"Ingresar",
+        "oferts":"Ofertas",
+        "ranking": "Ranking",
+        "register":"Registrarse",
+        "searchInput":"Buscar"
+      },
+      "adminHeader":{
+        "catalog":"Catalogo",
+        "home":"Inicio",
+        "oferts":"Ofertas",
+        "ranking": "Ranking",
+        "configuration":"Ajustes",
+        "adminNav": {
+          "adminDashboard": "Menu de Administrador",
+          "listBeats": "Lista de Canciones",
+          "addBeats": "Agregar Canciones",
+          "listGenre": "Lista de Generos Musicales",
+          "addGenre": "Agregar Genero",
+          "listUsers": "Lista de Usuarios",
+          "orderList": "Lista de ordenes"    
+        }
+
+      }
+    },
+    "page":{
+      "oferts":{
+        "title": "Ofertas",
+        "day":"Ofertas del dia",
+        "week":"Ofertas de la semana",
+        "month": "Ofertas del Mes",
+        "season": "Ofertas de temporada",
+        "holiday":"Ofertas de vacaciones"
+      },
+      "home":{
+        "MiddleSearchBar":"Buscar",
+        "sliders":{
+          "1":"Todos los beats",
+          "2":"Los mas vistos",
+          "3":"Beat Beat",
+          "4":"Smug Blues",
+          "5":"Lo mejor del Rock",
+          "6":"No pares de bailar Dance",
+          "7":"Shuffle House",
+          "noBeats":"No Beats"
+        },
+        "subscriptions":{
+          "title":"Sección de subscripciones",
+          "rat":{
+            "title":"Subscripcion Rat",
+            "list":{
+              "1":"Gratuita",
+              "2":"1 Beats Gratis",
+              "3":"Subir Beats: No",
+              "4":"Monetizacion de Beats: No ",
+              "5":"Accept PayPal payments: No",
+              "6":"Accept Stripe payments: No"
+            }
+          },
+          "monkey":{
+            "title":"Subscripcion Monkey",
+            "list":{
+              "1":"Costo Mensual: 5 $us",
+              "2":"Caracteristicas Extras:",
+              "3":"15 Beats Gratuitos",
+              "4":"20 Menssages privados al mes",
+              "5":"Vender 5 Beats mensuales",
+              "6":"Cobrar por Stripe"
+            }
+          },
+          "cougar":{
+            "title":" Subscripcion Cougar",
+            "list":{
+              "1":"Costo Mensual: 5 $us",
+              "2":"100% of Revenue to Seller",
+              "3":"25 Beats Gratuitos",
+              "4":"Menssages privados sin limite",
+              "5":"2 Submissions per Opportunity",
+              "6":"Sell Custom Services"
+            }
+          },
+          "lion":{
+            "title":"Subscripcion Lion",
+            "list":{
+              "1":"All Monkey features",
+              "2":"100% of Revenue to Seller",
+              "3":"Unlimited Private Messages",
+              "4":"Unlimited Number of License",
+              "5":"2 Submissions per Opportunity",
+              "6":"Sell Custom Services"
+            }
+          },
+          "button":"Subscribite"
+        }   
+      },      
+      "profile":{
+        "title": "¡No tienes una cuenta activa!",
+        "subtitle": "Registrate ahora y disfruta",
+        "button": "Volver a Inicio",
+        "buttonSecond": "Quiero registrarme",
+        "profileCard": {
+          "editButton": "Editar Cuenta",
+          "logout": "Cerrar Sesion"
+        },
+        "tabUser":{
+          "purchases": "Mis Compras",
+          "coments": "Mis Comentarios",
+          "componentPurchases": "COMPONENTE DE COMPRAS",
+          "componentComments": "COMPONENTE DE COMENTARIOS"
+        }
+      },
+      "catalog":{
+        "title":"Generos"
+      },
+      "product":{
+        "relatedTracks":"Relacionados",
+        "comments":"Comentarios",
+        "fans":"Seguidores"
+      },
+      "cart":{
+        "title":"Carrito",
+        "noItems":"No tienes artículos en el carrito",
+        "summary":"Resumen de compra",
+        "promoCodeTitle":"¿Tienes un código de promoción?",
+        "promoCodeInput":"Escribe el Codigo",
+        "promoCodeButton":"Aplicar",
+        "subtotal":"Subtotal",
+        "discount":"Descuento",
+        "total":"Total",
+        "checkout":"Comprar",
+        "alerts":{
+          "emptyCart":{
+            "title":"¿Estas Seguro?",
+            "text":"Estas a punto de vaciar el carrito!",
+            "cartEmpty":"El carrito se vacio correctamente!",
+            "cartSafe":"Tu carrito esta a salvo!",
+            "btn":"Vaciar Carrito",
+            "noItems":"No tienes Canciones en el carrito"
+          },
+          "emptyItem":{
+            "title":"Are you sure?",
+            "text":"you are about to remove the product from the cart!",
+            "cartEmpty":"the product has been removed from the cart!",
+            "cartSafe":"the product has not been removed!!"
+
+          }
+        }
+      },
+      "login":{
+        "title":"Ingresa Tu Cuenta",
+        "emailTitle":"Correo Electronico",
+        "emailPlaceholder":"Escribe tu correo electronico",
+        "passwordTitle":"Contraseña",
+        "passwordPlaceholder":"Escribe tu contraseña",
+        "signinButton":"Ingresar",
+        "dontAcount":"¿No tienes una cuenta?",
+        "forgotPassword":"¿Olvidaste tu contraseña?",
+        "signupButton":"Crear Cuenta"
+      },
+      "register":{
+        "title":"Crear Una Cuenta",
+        "emailTitle":"Correo Electronico",
+        "emailPlaceholder":"Escribe tu correo electronico",
+        "usernameTitle":"Nombre de Usuario",
+        "usernamePlaceholder":"Escribe tu Nombre de Usuario",
+        "passwordTitle":"Contraseña",
+        "passwordPlaceholder":"Escribe tu contraseña",
+        "confirmPasswordTitle":"Confirma tu Contraseña",
+        "confirmPasswordPlaceholder":"Escribe tu contraseña",
+        "signupButton":"Crear Cuenta",
+        "haveAcount":"¿Ya tienes una cuenta?",
+        "signinButton":"Ingresar con tu cuenta"
+      },
+      "resetPass":{
+        "line1": "Para reiniciar tu contraseña",
+        "line2": "BeatStore te genera un codigo",
+        "line3": "y te lo envia a tu correo",
+        "email":{
+          "title": "Email",
+          "placeholder": "Escribe tu correo aqui"
+        },
+        "code": "Enviar codigo"
+      },
+      "Code":{
+        "line1": "Primero, ingrese su codigo de reinicio",
+        "line2": "Luego, ingrese su nueva contraseña",
+        "titleLabel": "Codigo de reinicio",
+        "password1": "Nueva contraseña",
+        "confirm1": "Confirma tu contraseña",
+        "placeholder":{
+          "reset": "Escribe tu codigo aqui",
+          "password2": "Escribe tu nueva contraseña aqui",
+          "confirm2": "Confirma tu nueva contraseña"
+        },
+        "password3": "Reiniciar contraseña",
+        "back": "Volver para iniciar sesion"
+      },
+      "admin":{
+        "title":"Administracion",
+        "forms":{
+          "addBeats":{
+            "title":"Completa los campos",
+            "name":"Nombre",
+            "tone":"Tono",
+            "description":"Descripcion",
+            "artist":"Artista",
+            "date":"Fecha de lanzamiento",
+            "price":"Precio",
+            "bpm":"Bpm",
+            "image":"Seleciona una Imagen",
+            "audio":"Seleciona un Audio",
+            "categories":"Categorias",
+            "addBeatButton":"Agregar Cancion",
+            "saveBeatButton":"Guardar Cancion",
+            "notes":{
+              "c":"DO",
+              "d":"RE",
+              "e":"MI",
+              "f":"FA",
+              "g":"SOL",
+              "a":"LA",
+              "b":"SI"
+            },
+            "errors":{
+              "inpName":"Nombre requerido",
+              "inpDescription":"descripcion requerida",
+              "inpArtist":"artista requerido",
+              "inpPrice":"precio requerido",
+              "inpBpm":"beats por minuto requerido",
+              "inpDate":"Fecha de Lanzamiento requerida",
+              "inpTone":"tono requerido",
+              "inpValidDate":"Ingresar una fecha valida!",
+              "inpImage":"Una imagen es requerida",
+              "inpAudio":"El audio es requerido"
+            }                   
+          },
+          "addGen":{
+            "title": "Agregar Genero Musical",
+            "titleEdit":"Edita el Genero",
+            "submitEdit":"Editar Genero",
+            "name": "Nombre",
+            "description": "Descripcion",
+            "submit": "Agregar Genero",
+            "errorName": "el nombre es requerido",
+            "errorDescription":"la descripcion es requerida",
+            "placeholderOne": "nombre del tipo de genero",
+            "placeholderTwo": "descripcion sobre el genero"
+          },
+          "addOfert":{
+            "title": "Agregar Oferta",
+            "name": "Nombre",
+            "discount": "Descuento",
+            "submit": "Agregar oferta",
+            "mode":{
+              "title":"Modo de oferta",
+              "1":"ninguno",
+              "2":"dia",
+              "3":"semana",
+              "4":"mes",
+              "5":"temporada",
+              "6":"para siempre" 
+            },
+            "error":{
+              "name":"el nombre es requerido",
+              "discount":"el campo descuento es requerido"
+            },
+            "placeholderOne": "nombre del tipo de oferta",
+            "placeholderTwo": "descuento de la oferta"
+          }
+      }
+    }
+
+  },
+  "components":{
+    "beatComponent":{
+      "buttonCart": "Agregar al carrito $",
+      "artist": "Artista: ",
+      "p": "No se encuentra el producto",
+      "option":{
+        "text": "¡Gracias por tu apoyo!"
+      }
+    },
+    "beatComponentInput":{
+      "commentAdd": "Inicia sesion para dejar tu comentario"
+    },
+    "profile":{
+      "orderCard":{
+        "created":"Fecha de compra: ",
+        "order": "Numero de orden: ",
+        "price": "Precio :",
+        "quantity": "Cantidad productos: ",
+        "status": "Estado: "
+      },
+      "button": "Detalles"
+    }
+  }
+}

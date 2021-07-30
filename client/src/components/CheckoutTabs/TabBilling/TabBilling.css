@@ -1,0 +1,62 @@
+.--TabBilling{
+    display: flex;
+    flex-direction: column;
+}
+/* .--TabBilling-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+} */
+.--TabBilling-form-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.--TabBilling-form-items-button{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+}
+
+.--TabBilling-form-items label{
+   width: 150px;
+   min-width: 150px;
+}
+.--TabBilling-form button{
+    height: 38px;
+    margin: 10px;
+    padding: 0px 12px;
+    background: linear-gradient(45deg, rgb(234, 50, 111), rgb(145, 27, 137));
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: -2px 1px 4px rgb(19 19 19);
+    cursor: pointer;
+    color: white;
+    font-family: 'Oxanium', cursive;
+}
+.--TabBilling-form button:hover{
+    background: linear-gradient(225deg, rgb(234, 50, 111), rgb(145, 27, 137));
+    color: rgb(223, 223, 223);
+}
+.--TabBilling-form button:active{
+    background: linear-gradient(45deg, rgba(234, 50, 111, 0.5), rgba(145, 27, 137, 0.5));
+    box-shadow: none;
+    color: rgb(126, 126, 126);
+}
+.--TabBilling-form label{
+    color: white;
+    margin: 10px;
+    font-family: 'Oxanium', cursive;
+}
+.--TabBilling-form input{
+    margin: 5px;
+    height: 36px;
+    width: 300px;
+    padding-left: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(137, 43, 226, 0.185);
+    border: 1px solid blueviolet;
+    font-family: 'Oxanium', cursive;
+}

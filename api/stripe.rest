@@ -1,0 +1,37 @@
+//GET LIST CUSTOMERS ######################
+GET http://localhost:3001/customers
+
+###
+//GET LIST BY ID ##########################
+GET http://localhost:3001/customers/cus_JDlMl091x6jLm1
+
+###
+//POST CUSTOMERS ##########################
+POST http://localhost:3001/customers/create
+content-type: application/json
+
+{
+      "email":"matt@correo.com",
+      "description": "ojalá terminemos esto rapido",
+      "phone": 1169047409,
+      "address": "crisantemo 6521",
+      "order_id": "87654",
+      "subscription_mode": "RAT",
+      "suscription_time": "01/04/2021"
+}
+
+//EDIT CUSTOMER ############################
+PUT http://localhost:3001/customers/:idCustomer
+content-type: application/json
+
+{
+      "email":,
+      "description":,
+      "phone":,
+      "address":,
+      "order_id":,
+      "subscription_mode":,
+      "suscription_time":
+}
+
+

@@ -1,0 +1,144 @@
+.--adminListUsers--main-panel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oxanium', cursive;
+}
+.--adminListUsers--main-div{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.--adminListUsers--main-panel h1{
+    padding: 15px;
+    text-align: center;
+    color:white;
+
+}
+.usercard-main{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: 5px dotted rgb(79, 8, 112);
+    margin: 50px;
+}
+.btn-privilege{
+   margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(14, 47, 155, 0.712);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: antiquewhite;
+}
+.btn-privilege:hover{
+     background-color: rgba(7, 26, 88, 0.712);
+ }
+ .btn-privilege:active{
+    background-color: rgb(2, 12, 43);
+}
+.btn-menu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: antiquewhite;
+}
+.usercard-col-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+   
+}
+.usercard-col-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+.usercard-col-1{
+    display: flex;
+    padding-right: 30%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+.btn-edit{
+    max-height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-family: 'Oxanium', cursive;
+    font-size:1rem;
+    font-weight: 600;
+    background-color: rgb(8, 136, 36);
+    color:white;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+    
+}
+.btn-delete{
+    
+    max-height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-family: 'Oxanium', cursive;
+    font-size:1rem;
+    font-weight: 600;
+    background-color: rgb(180, 45, 4);
+    color:white;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.icons-users{
+    color:green;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 25px;
+}
+.icons-users:hover{
+    color:rgb(83, 182, 83);
+    font-size: 2.5rem;
+    margin-bottom: 27px;
+}
+.icons-users:active{
+    color:rgb(96, 20, 131);
+    font-size: 2.5rem;
+    margin-bottom: 2px;
+}
+
+.icons-users-delete{
+    color:rgb(167, 16, 74);
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 25px;
+}
+
+.icons-users-delete:hover{
+    color:rgb(219, 138, 15);
+    font-size: 2.5rem;
+    margin-bottom: 27px;
+}
+.icons-users-delete:active{
+    color:rgb(86, 15, 119);
+    font-size: 2.5rem;
+    margin-bottom: 2px;
+}

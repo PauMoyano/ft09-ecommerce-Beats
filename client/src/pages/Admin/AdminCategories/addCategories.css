@@ -1,0 +1,92 @@
+.--cat-all {
+    width: 100%;
+
+}
+.--Cart-title h1{
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+    margin-top:2.5em;
+    font-family: 'Goldman';
+}
+.--cat-all-form{
+    width: 25em;    
+    margin-left: auto;
+    margin-right: auto;    
+    height: 20em;   
+    margin-top: 1em; 
+    background-color: #2E0230;
+    border: 2px solid rgb(28, 4, 54);    
+    border-radius: 0.5em;
+}
+.catAdd {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.catAdd h1 {
+    font-family: 'Oxanium', cursive;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.input-name, .input-description {
+    width: 100%; 
+    padding-top: 1em;
+    padding-bottom: 1em;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-name p, .input-description p{
+    margin: 0;    
+    text-align: center;
+    font-family: 'Goldman', cursive;
+    font-size: 1.2rem;
+    padding-bottom: 1em;
+}
+.input-name input, .input-description input{
+    width: 80%;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(253, 253, 253);
+}
+
+.input-name input::placeholder, .input-description input::placeholder {
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Oxanium', cursive;
+}
+.button-submit {
+    width:40%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.--submitbuton {
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    background-color: rgba(51, 3, 45, 0.3);
+    box-shadow: 2px 2px 5px black;
+    border: 3px solid rgb(88, 14, 66);
+    outline: none;
+    padding: 0.2em;
+    font-size: 1.2rem;
+    font-family: 'Oxanium', cursive;
+    cursor: pointer;
+}
+
+.--submitbuton:hover {
+    border-color: rgb(63, 21, 73);
+    background-color: transparent;
+}
+.--submitbuton:active {
+    box-shadow: none;
+}

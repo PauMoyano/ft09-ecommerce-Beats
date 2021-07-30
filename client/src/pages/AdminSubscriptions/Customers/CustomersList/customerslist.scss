@@ -1,0 +1,94 @@
+.admin-customerslist-main{
+    margin-top: 1em;
+}
+.customerlist-loadding{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 150px;
+    justify-content: center;
+    align-content: center;
+}
+.admin-customerslist-main h2 {
+    color:white;
+    text-align: center;
+}
+.admin-customerslist-main p {
+    color:rgb(0, 0, 0);
+}
+.admin-customerslist-main-customer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid violet;
+    border-radius: 10px;
+    background-color: rgb(43, 9, 75);
+    margin: 2em;
+    flex-wrap: wrap;
+}
+.admin-customerslist-main-customer:hover{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.admin-customerslist-main-col-one{
+    display: flex;
+    flex-direction: row;
+    margin: 0.2em;
+    justify-content: left;
+    padding: 0.2em;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.admin-customerslist-main-col-one-id{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: violet;
+    border-radius: 5px;
+    padding: 0.2em;
+    margin: 0.2em;
+}
+
+
+.admin-customerslist-main-col-one-id h3{
+    padding: 0.5em;
+    margin: 0px;
+    background-color: rgb(43, 9, 75);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.admin-customerslist-main-col-one-id h4{ 
+    font-size: 0.9rem;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: rgb(21, 21, 107);
+}
+
+.admin-customerslist-main-col-one-bal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: violet;
+    border-radius: 5px;
+    padding: 0.2em;
+    margin: 0.2em;
+    width: auto;
+}
+.admin-customerslist-main-col-one-bal h3{
+    padding: 0.5em;
+    margin: 0px;
+    background-color: rgb(43, 9, 75);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.admin-customerslist-main-col-one-bal h4{ 
+    font-size: 1.1rem;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: rgb(21, 21, 107);
+}

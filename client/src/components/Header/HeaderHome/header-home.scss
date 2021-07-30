@@ -1,0 +1,565 @@
+//VARIABLES ################################################################
+
+//COLORS
+    //TEXTS
+    $h1-color: white;
+    $menu-text-color:white;
+    //BACKGROUNDS
+    $bg-nav-top:#5c045f8a;
+    $bg-nav-bottom:#03030300;
+    //FONTS
+    $primary-font:"Goldman";
+//#######################################################################
+
+//MAIN
+.--header-home-main{
+    position: fixed;
+    top: 0;
+    width:100vw;
+    bottom: auto !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: linear-gradient($bg-nav-top, $bg-nav-bottom);
+    z-index: 999;
+}
+.--header-home-main-hidde{
+  display: none;
+
+}
+//LOGO ###################################################################
+.--header-home-logo{
+    width: 33.5vw;
+    display: flex;
+    align-items: center;    
+}
+.--header-home-logo img{
+    width:50px;
+    height: 40px;
+    padding-left: 0.7em;
+   
+}
+.--header-home-logo h1{
+    color:$h1-color;
+    padding-left: 0.7em;;
+    font-family: $primary-font;
+}
+//HEADER PAGE ########################################################
+.--header-homePage-logo{
+    width: 16.5vw;
+    display: flex;
+    align-items: center;    
+}
+.--header-home-menu-page-responsive{
+    display: none;
+}
+.--header-menu-page-div input{
+    background-color: rgba(0,0,0,0.840);
+    background-image: url('./Search.png');
+    background-position: 97%;
+    background-size: 6.5%;
+    background-repeat: no-repeat;
+    border-radius: 0.3em;
+    width:100%; 
+    border: none;    
+    text-align:center;
+    font-family: $primary-font;
+    font-size: 2em;
+    outline: none;
+    color: #ba0bc0;
+    box-shadow: 0px 0px 10px rgb(148, 4, 153);
+}
+.--header-menu-page-div input::placeholder{
+    color: #ba0bc0;
+}
+.--header-menu-page-div input:focus{
+   
+    background-color: rgba(43, 2, 41, 0.83);
+    box-shadow: 0px 0px 10px rgb(149, 76, 151);
+    transition: all 0.3s ease-in;
+    
+}
+.--header-homePage-menu form{
+    width: 100%;
+    align-self: center;
+}
+
+//MENU ####################################################################
+.--header-home-menu{
+    display: flex;
+    width: 33vw; 
+    color: $menu-text-color;
+    align-items: center;    
+    justify-content: center;
+    padding-top: 3px;
+}
+.--header-home-menu-page{
+    display: flex;
+    width: 33vw; 
+    color: $menu-text-color;
+    align-items: center;    
+    justify-content: center;
+    padding-top: 3px;
+}
+
+.--header-page-div input{
+    background-color: rgba(0,0,0,0.840);
+    background-image: url('./Search.png');
+    background-position: 97%;
+    background-size: 6.5%;
+    background-repeat: no-repeat;
+    border-radius: 0.3em;
+    width:100%; 
+    border: none;    
+    text-align:center;
+    font-family: $primary-font;
+    font-size: 2em;
+    outline: none;
+    color: #ba0bc0;
+    box-shadow: 0px 0px 10px rgb(148, 4, 153);
+}
+.--header-page-div input:hover{
+    cursor:help;
+}
+.--header-page-div input::placeholder{
+    color: #ba0bc0;
+}
+.--header-page-div input:focus{
+   
+        background-color: rgba(43, 2, 41, 0.83);
+        box-shadow: 0px 0px 10px rgb(149, 76, 151);
+        transition: all 0.3s ease-in;
+    
+}
+.--header-home-menu ul{
+    display: flex;
+    margin:0px;
+    padding: 0px;
+    align-items:center;
+}
+.--header-home-menu li {
+    display: inline-block;
+    font-family: 'Oxanium', cursive;
+    font-size: 1.5rem;
+    padding: 0.3em;
+    padding-top: 0.4em;
+    align-self: center; 
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border: 0.1em solid transparent;
+}
+.--header-home-dropdown{
+    display:none;
+}
+.--header-home-link-dropdown{
+    display:none;
+}
+.--header-home-dropdown-menu {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width:100%;
+    position:fixed;
+    top: 52px;    
+}
+.icon-admin-user{
+    font-size: 2rem;
+    position: relative;
+    right: 1em;
+    bottom: 0.15em;
+    text-shadow: 0px 0px 5px rgb(84, 21, 157);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.icon-admin-user:hover{
+    bottom: 0.2em;
+}
+
+//PERFIL ##################################################################
+.--header-home-perfil{
+    display: flex;
+    width: 33vw; 
+    color: $menu-text-color;
+    align-items: center;   
+    justify-content: flex-end;
+    padding-right: 0.5em;
+    padding-top:0.3em;
+}
+.--header-flags img{
+    width: 1.8em;
+    height: 1.8em;
+    cursor:pointer;
+}
+.--header-flags {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+.--header-flags:hover{
+    padding-bottom: 0.15em;
+}
+.--header-h1-link{
+    text-decoration: none;
+}
+.--header-account-link{
+    text-decoration: none;
+    color:$menu-text-color;
+}
+.--header-home-perfil ul{
+    display: flex;
+    margin:0px;
+    padding: 0px;
+    align-items:center;
+}
+.--header-home-link{
+    text-decoration: none;
+    color:$h1-color; 
+    border-radius: 0.4em;
+    border: 0.1em solid transparent;   
+}
+.--header-home-link:hover{
+    border: 0.1em solid rgba(146, 46, 133, 0.7);
+    border-radius: 0.4em;
+    transition: border 0.3s ease-in;
+}
+.--header-home-link:active{
+    border: 0.1em solid rgba(146, 46, 133, 0);
+    background-color:rgba(146, 46, 133, 0.7); ;
+    border-radius: 0.4em;
+    transition: all 0.3s ease-in;
+}
+.--header-home-link-login{
+    text-decoration: none;
+    color:$h1-color;   
+    display: flex;
+}
+.--header-home-link-login span{
+    margin-top: 3px;
+}
+.--header-home-link-login span:hover{
+    position: relative;
+    left: 3px;
+}
+.--header-home-perfil li {
+     display: inline-block;
+     font-family: 'Oxanium', 'cursive';
+     font-size: 1.5rem;
+     padding: 0.3em;
+     padding-top: 0.4em;
+     align-self: center; 
+     margin-left: 0.5em;
+     margin-right: 0.5em;
+     border: 0.1em solid transparent;
+}
+.--header-home-perfil li:hover {
+    border: 0.1em solid rgba(146, 46, 133, 0.7);
+    border-radius: 0.4em;
+    transition: border 0.3s ease-in ;
+    
+}
+.--header-home-perfil li:active {
+    border: 0.1em solid rgba(146, 46, 133, 0);
+    background-color:rgba(146, 46, 133, 0.7); ;
+    border-radius: 0.4em;
+    transition: all 0.3s ease-in ;
+    
+}
+.--header-home-perfil-icon{
+    padding: 0.4em;
+    font-size: 2rem;
+    color: aliceblue;
+}
+.--header-home-cart{
+    display: flex;
+    flex-direction: row;
+
+}
+.--header-home-perfil-icon:hover{
+    color:rgb(119, 33, 108)
+}
+.--user-img{
+    font-size:2.8rem;
+}
+.--user-imgProfile{
+    width: 3.5em;
+    height: 3.5em;
+}
+.--user-imgProfile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.--header-home-cart-item-length{
+    position: relative;
+    background-color: rgba(28, 8, 75, 0.7);
+    border-radius: 25%;
+    padding: 0.3em;
+    align-self: top;
+    height: 1.3em;
+    right: 20px;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    z-index: 9999;
+}
+
+//INTERNATIONALIZATION
+.--header-flag{
+    position: fixed;
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    margin: 0.5em;
+    flex-direction: row;
+    top:60px;
+    right: 30px;
+}
+
+.--header-home-dropdown-menu-hidden {
+    display:none;
+    padding-top: 15px;
+}
+//RESPONSIVE #############################################################
+@media(min-width:1350px){
+    .--header-page-div input{
+        background-size: 5%;  
+    }
+}
+
+//RESPONSIVE #############################################################
+@media(max-width:980px){
+
+//LOGO ###################################################################
+.--header-home-logo{
+    width: 35vw; 
+}
+.--header-home-logo img{
+    width:50px;
+    height: 40px;
+    padding-left: 0.7em; 
+}
+//MENU ####################################################################
+.--header-home-menu{
+    width: 29vw; 
+}
+.--header-home-link{
+     display: none;
+}
+.--header-home-dropdown {
+    display:block;
+    font-family: 'Oxanium', cursive;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.--header-page-div input{
+    background-size: 9%;  
+}
+//PERFIL ##################################################################
+.--header-home-perfil{
+    width: 35vw; 
+}
+.--header-home-link-dropdown{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    color:$h1-color; 
+    font-family: 'Oxanium', cursive;
+    font-size: 1.5rem;
+    border: 0.1em solid rgba(146, 46, 133, 0);
+    border-radius: 0.4em;
+    padding: 0.3em;
+}
+.--header-home-link-dropdown:hover{
+    border: 0.1em solid rgba(146, 46, 133, 0.7);
+    border-radius: 0.4em;
+    transition: border 0.3s ease-in;
+}
+.--header-home-dropdown-menu-box{
+    display: flex;
+    margin-top: 1em;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+
+}
+.--header-home-menu li:hover {
+    border: 0.1em solid rgba(146, 46, 133, 0.7);
+    border-radius: 0.4em;
+    transition: border 0.3s ease-in ;
+}
+.--header-home-dropdown-menu-box{
+    display: none;
+}
+}
+@media(max-width:640px){
+    .--header-home-logo img{
+        display: none;
+    }
+    .--header-home-dropdown-menu-box{
+        display: none;
+   }
+}
+
+@media(max-width:799px){
+//MAIN
+.--header-home-main{
+    display: flex;
+    flex-direction: row;
+
+}
+.--header-home-logo{
+    display:flex;
+    width: 50vw;
+    justify-content: center; 
+}
+.--header-home-logo img{
+    width:50px;
+    height: 40px;
+    padding-left: 1em; 
+}
+.--header-home-logo h1{
+    font-size:2.5rem;
+    margin: 0;
+    padding-left: 0.3em;
+}
+.--header-home-perfil li {
+    padding-left: 0.6em;
+    margin-left: 0em;
+    margin-right: 0em;
+
+}
+.icon-admin-user{
+    font-size: 2rem;
+    position: relative;
+    right: 0.5em;
+    bottom: 0.15em;
+    text-shadow: 0px 0px 5px rgb(84, 21, 157);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.--header-home-menu{
+    display: none; 
+}
+.--header-home-menu-page{
+    display: none;
+}
+.--header-page-div input{
+    width:80%; 
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.--header-page-div input{
+    background-size: 5%;  
+}
+
+.--header-home-perfil{
+    width: 100vw;    
+}
+.--header-home-dropdown-menu-box{
+    margin-top: 150px;
+}
+.--header-home-dropdown-menu-box{
+    display: none;
+}
+.--header-home-menu-page-responsive{
+    display: block;
+    position: relative;
+    width: 100%;
+    top: 4.5em;
+}
+.--header-menu-page-div{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media(max-width:480px){
+    .--header-home-main{
+        display: flex;
+        flex-direction: row;
+    }
+    .--header-home-logo{
+        display:flex;
+        width: 15%;
+        justify-content: center; 
+    }
+
+    .--header-home-logo img{
+        display: block;
+        width:60px;
+        height: 50px;
+        margin-top: 0.5em;
+        padding-left: 0.7em; 
+    }
+    .--header-home-logo h1{
+        display: none;
+    }
+    .--header-home-menu{
+        display: block;
+        order: 1;
+        width: 5%;
+    }
+    .--user-imgProfile{
+        width: 3em;
+        margin-top: 0.5em;
+    }
+    .--header-home-menu-page{
+        display: block;
+        order: 1;
+        width: 5%;
+    }
+    .--header-page-div input{
+        display: none;
+    }
+    
+    .--header-page-div input{
+        width:80%; 
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .--header-page-div input{
+        background-size: 5%;  
+    }
+    
+    .--header-home-perfil{
+        width: 80%;    
+        padding: 0;
+        order:0
+    }
+    .--header-home-link-admin{
+        display: flex;
+    }
+    .--user-img{
+        display: none;
+    }
+    .--header-home-dropdown img{
+        position: relative;
+        right: 50%;
+        margin-top: 0.4em;
+        filter: invert(100);
+    }
+    .--header-home-dropdown-menu-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 0.1em;
+    }
+    .--header-page-div{
+        margin-top: 0.1em;
+    }
+    .--header-home-menu-page-responsive{
+        display: block;
+        position: relative;
+        width: 100%;
+        top: 7.5em;
+    }
+    .--header-menu-page-div{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+

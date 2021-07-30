@@ -1,0 +1,33 @@
+.admin-subscriptionsnav-main{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.admin-subscriptionsnav-main-ul{
+    padding: 0;
+    color:white;
+}
+.admin-subscriptionsnav-main-li{
+    display:inline-block;
+    padding: 0.5em;
+}
+.admin-subscriptionsnav-main-link{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding:5px;
+    border-radius: 10px;
+}
+
+.admin-subscriptionsnav-main-link:hover{
+    background-color:rgb(120, 4, 124);
+    transition: all 0.5s ease-in;
+    
+}
+
+.admin-subscriptionsnav-main-link:focus{
+    background-color:rgb(120, 4, 124);
+    transition: all 0.5s ease-in;
+    
+}

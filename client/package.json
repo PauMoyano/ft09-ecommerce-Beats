@@ -1,0 +1,70 @@
+{
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@stripe/react-stripe-js": "^1.4.0",
+        "@stripe/stripe-js": "^1.13.2",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "axios": "^0.21.1",
+        "bootswatch": "^4.6.0",
+        "emailjs-com": "^2.6.4",
+        "i18next": "^20.1.0",
+        "i18next-browser-languagedetector": "^6.1.0",
+        "i18next-http-backend": "^1.2.1",
+        "js-snackbar": "^1.1.2",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.1",
+        "node-sass": "^5.0.0",
+        "passport-github": "^1.1.0",
+        "passport-google-oauth": "^2.0.0",
+        "prop-types": "^15.7.2",
+        "react": "^16.14.0",
+        "react-audio-player": "^0.14.0",
+        "react-audio-spectrum": "^0.1.0",
+        "react-dom": "^16.14.0",
+        "react-hook-form": "^7.0.4",
+        "react-i18next": "^11.8.11",
+        "react-icons": "^4.2.0",
+        "react-images-upload": "^1.2.8",
+        "react-jinke-music-player": "^4.23.0",
+        "react-redux": "^7.2.2",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "^4.0.3",
+        "react-select": "^4.2.1",
+        "react-spring": "^8.0.27",
+        "react-use-gesture": "^9.1.3",
+        "react-wavesurfer": "^0.8.6",
+        "redux": "^4.0.5",
+        "redux-devtools-extension": "^2.13.9",
+        "redux-logger": "^3.0.6",
+        "redux-thunk": "^2.3.0",
+        "snackbar": "^1.1.0",
+        "sweetalert": "^2.1.2",
+        "wavesurfer.js": "^2.0.0-beta01",
+        "with": "^7.0.2"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

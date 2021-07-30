@@ -1,0 +1,107 @@
+
+.--Cart{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.--Orders{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.--Cart-items{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: auto;
+}
+@media(max-width:1280px){
+    .--Cart-items{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+@media(max-width:800px){
+    .--Cart-items{
+        margin-top: 130px;
+    }
+
+}
+.--Cart-items h1{
+    color: white;
+    font-family: 'Goldman', cursive;
+}
+.empty-cart{
+    color: white;
+    font-size: 1.4rem;
+}
+.--Cart-deleteCart{
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    padding: 0px 12px;
+    background: linear-gradient(45deg, rgb(234, 50, 111), rgb(145, 27, 137));
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+.--Cart-deleteCart:hover{
+    background: linear-gradient(225deg, rgb(234, 50, 111), rgb(145, 27, 137));
+    color: rgb(223, 223, 223);
+}
+.--Cart-deleteCart:active{
+    background: linear-gradient(45deg, rgba(234, 50, 111, 0.5), rgba(145, 27, 137, 0.5));
+    color: rgb(126, 126, 126);
+}
+.swal-overlay {
+    background-color: rgba(0, 0, 0, 0.74);
+  }
+.swal-modal {
+    background-color: rgb(31, 31, 31);
+    border: 2px solid rgb(54, 54, 54);
+}
+.swal-title {
+    color: white;
+}
+.swal-text {
+    color: white;
+}
+.swal-icon--success__hide-corners{
+    background-color: rgb(31, 31, 31);
+}
+.swal-icon--success::before{
+    background-color: rgb(31, 31, 31);
+}
+.swal-icon--success::after{
+    background-color: rgb(31, 31, 31);
+}
+.swal-button:focus{
+    box-shadow: none;
+}
+.swal-button--cancel{
+    color: white;
+    outline: none;
+    background-color: rgb(145, 27, 137);
+}
+.swal-button--cancel:not([false]):hover{
+    background-color: rgb(233, 41, 220);
+}
+.swal-button--confirm{
+    outline: none;
+    background-color: rgb(234, 50, 111);
+}
+.swal-button--confirm:not([false]):hover{
+    background-color: rgb(168, 39, 82);
+}

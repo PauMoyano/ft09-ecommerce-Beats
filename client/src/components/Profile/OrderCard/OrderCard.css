@@ -1,0 +1,67 @@
+.--OrderCard{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    background: linear-gradient(18deg, rgb(34, 34, 34), rgb(20, 20, 20));
+    border-radius: 10px;
+}
+.total{text-align: right;}
+.--OrderCard-data{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.--OrderCard-data span{
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Oxanium','cursive';
+    font-size: 1rem;
+    margin-right: 25px;
+}
+.--OrderCard-detail-btn {
+    width: 29%;
+    align-self: center;
+}
+.--OrderCard-detail-btn button{
+    width: 100%;
+    height: 3em;
+    background: transparent;
+    border: 2px solid rgb(145, 27, 137);
+    border-radius: 0.3em;
+    cursor:pointer;
+    color: white;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.--OrderCard-detail-btn button:hover{
+    background: linear-gradient(225deg, rgb(234, 50, 111), rgb(145, 27, 137));
+}
+.--OrderCard-detail-btn button:active{
+    background: linear-gradient(45deg, rgba(234, 50, 111, 0.5), rgba(145, 27, 137, 0.5));
+}
+@media(max-width:499px){
+    .--OrderCard{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .--OrderCard-data{
+        width: 100%;
+    }
+    .--OrderCard-data span{
+        margin-right: 0px;
+    }
+    .--OrderCard-detail-btn {
+        width: 100%;
+        margin-top: 2em;
+        align-self: center;
+    }
+    .--OrderCard-detail-btn button{
+        width: 40%;
+
+    }
+}

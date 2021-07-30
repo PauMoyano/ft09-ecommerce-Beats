@@ -1,0 +1,51 @@
+.--Checkout{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    align-items: center;
+}
+.--Checkout p{
+    color: white;
+    font-family: 'Oxanium', cursive;
+}
+.--Checkout-tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.--Checkout-tab p{
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    height: 35px;
+    border: 2px solid rgb(212, 0, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 2;
+}
+.--Checkout-tab p:hover{
+    background-color: rgba(212, 0, 255, 0.411);
+}
+.--Checkout-tab p:active{
+    background-color: rgb(81, 18, 153);
+}
+.--Checkout-tab-active p{
+    background-color: rgba(81, 18, 153, 0.664);
+}
+.--Checkout-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.--Checkout-content-inactive{
+    display: none;
+}
+.--Checkout-tab-disable{
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.--Checkout-tab-disable p{
+    border: 2px solid rgb(59, 0, 71);
+}

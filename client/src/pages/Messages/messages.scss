@@ -1,0 +1,209 @@
+.--messages-main{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.super-modal{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 300px;
+    background-color: rgba(78, 15, 87, 0.129);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 0.5em;
+    position: fixed;
+    top:40%;
+    z-index:999;
+    justify-content: space-between;
+
+}
+.super-modal-textarea{
+    color: rgb(253, 253, 253);
+    font-size: 1.5rem;
+}
+.super-modal-hidden{
+    display: none;
+}
+.super-modal-col{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+}
+
+.super-modal-col-buttons{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    padding: 1em;
+}
+.--messages-item-go-back{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.super-modal-col-button-cancel{
+    padding: 0.6em;
+    border-radius: 5px;
+    background-color: rgb(50, 6, 80);
+    color: white;
+    outline: none;
+}
+.super-modal-col-button-send{
+    padding: 0.6em;
+    border-radius: 5px;
+    background-color: rgb(119, 8, 114);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+.super-modal-col-button-cancel:hover{
+    padding: 0.6em;
+    border-radius: 5px;
+    background-color: rgb(100, 22, 153);
+    color: white;
+    outline: none;
+    cursor:pointer;
+}
+.super-modal-col-button-send:hover{
+    padding: 0.6em;
+    border-radius: 5px;
+    background-color: rgb(170, 19, 163);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    cursor:pointer;
+}
+.--message-main-title{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.--messages-main h1{
+    color: white;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+
+.--messages-loading{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    margin-top: 2em;
+}
+.--messages-item{
+    display:flex;
+    flex-direction: column;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 2px solid rgb(104, 5, 104);
+    border-radius: 10px;
+    background-color: rgb(20, 2, 34);
+}
+.--messages-item:nth-of-type(2n+2){
+    display:flex;
+    flex-direction: column;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 2px solid rgb(20, 2, 34);
+    border-radius: 10px;
+    background-color: rgb(104, 5, 104);
+}
+.--messages-item-col{
+    display: flex;
+    flex-direction: row;
+    color:white;
+}
+.--messages-item-col-span{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    font-weight: 600;
+    background-color: rgb(110, 5, 110);
+    padding: 0.5em;
+    margin: 0.3em;
+    border-radius: 5px;
+
+}
+.--message-item-delete{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    
+}
+.--message-item-delete-icon{
+    font-size: 1.4rem;
+    color: rgb(255, 0, 212);
+    cursor: pointer;
+    padding: 0.1em;
+}
+.--message-item-delete-icon:hover{
+    font-size: 1.7rem;
+    color: rgb(86, 11, 129);
+    cursor: pointer;
+    padding: 0em;
+}
+.--messages-item-col-text{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    font-weight: 600;
+    padding: 0.5em;
+    margin: 0.3em;
+    border-radius: 5px;
+
+}
+.--messages-item-col-text-reply{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color:white;
+    font-weight: 600;
+    padding: 0.5em;
+    margin: 0.3em;
+    border-radius: 5px;
+    background-color: rgb(110, 5, 110);
+}
+.--messages-item-col-text-reply:hover{
+    color:rgb(102, 98, 98);
+    background-color: rgb(51, 3, 51);
+    cursor:pointer;
+    transition: all 0.5s ease-out;
+}
+.--messages-item-col-text-reply:active{
+    color:rgb(51, 49, 49);
+    background-color: rgb(10, 0, 10);
+    cursor:pointer;
+    transition: all 0.5s ease-out;
+}
+.--messages-item-col-main{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    background-color: rgb(41, 4, 63);
+    border-radius: 10px;
+    margin: 0.3em;
+
+}
+.super-modal-col-reply{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    justify-content: right;
+}
+.--messages-item-col-main-message{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100px;
+    color:white;
+    background-color: rgb(41, 4, 63);
+    border-radius: 10px;
+    margin: 0.3em;
+
+}

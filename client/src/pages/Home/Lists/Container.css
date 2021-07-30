@@ -1,0 +1,30 @@
+
+.Container {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    overflow-x: none;
+}
+.top-divider{
+    margin-top: 0px;
+    min-height: 40px;
+    background: linear-gradient(180deg, rgba(169, 4, 128, 0.364), rgba(5, 5, 5, 0));
+}
+.Container h1{
+    color: antiquewhite;
+    font-family: 'Oxanium', 'cursive';
+    padding-left: 1em;
+}
+.Container h2{
+    color: antiquewhite;
+    font-family: 'Oxanium', 'cursive';
+    padding-left: 1em;
+}
+@media(max-width:480px){
+    .Container h2{
+        text-align: center;
+        font-size: 1.3rem;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+}

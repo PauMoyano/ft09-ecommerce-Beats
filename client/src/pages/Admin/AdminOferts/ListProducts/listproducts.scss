@@ -1,0 +1,61 @@
+.--admin-list-main p{
+    color:white;
+}
+
+.--admin-list-main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-bottom: 1px solid rgb(94, 91, 91);
+
+    
+}
+.--admin-list-main-img {
+    display: flex;
+   justify-content: center;
+   align-content: center;
+   padding: 1em;
+}
+.--admin-list-main-details{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+.--admin-list-main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// .--admin-list-main-btn button {
+//     outline: none;
+//     height: 70px;
+//     width: 100px;
+//     max-height: 70px;
+//     background-color: rgb(60, 9, 128);
+//     color: white;
+//     border: 2px solid rgba(255, 192, 203, 0.445);
+//     border-radius: 10px;
+//     cursor: pointer;
+// }
+.--admin-list-main-btn-button {
+    outline: none;
+    height: 70px;
+    width: 100px;
+    max-height: 70px;
+    background-color: rgb(60, 9, 128);
+    color: white;
+    border: 2px solid rgba(255, 192, 203, 0.445);
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(135, 17, 165);
+    }
+    &:active{
+        background-color: rgb(33, 4, 71);
+        border: none;
+    }
+}

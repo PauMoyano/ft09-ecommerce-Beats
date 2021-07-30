@@ -1,0 +1,44 @@
+:root{
+    --CommentCard-contentDiv-commentInfo-span: #9f9f9f;
+    --CommentCard-contentDiv-comment-span: #fff;
+}
+
+.--CommentCard{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(44, 43, 43);
+}
+.--CommentCard-imageDiv{
+    padding-left: 10px;
+    align-self: center;
+}
+.--CommentCard-imageDiv img{
+    width: 60px;
+    border-radius: 50%;
+
+}
+.--CommentCard-contentDiv{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.--CommentCard-contentDiv-commentInfo span{
+    color: var(--CommentCard-contentDiv-commentInfo-span);
+}
+.--CommentCard-contentDiv-commentInfo-userName{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+}
+.--CommentCard-contentDiv-commentInfo-date{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+.--CommentCard-contentDiv-comment span{
+    font-size:1.2rem;
+    line-height: 35px;
+    color: var(--CommentCard-contentDiv-comment-span);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Courier, monospace;
+
+}

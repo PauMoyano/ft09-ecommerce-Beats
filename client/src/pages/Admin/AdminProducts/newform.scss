@@ -1,0 +1,215 @@
+.--all-container-form{
+    width: 100%;
+}
+.--add-product-new-container{
+    display: flex;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    flex-direction: column;
+    border-radius: 1em;
+
+    background: rgb(1,1,0);
+    background: linear-gradient(180deg, rgba(1,1,0,0) 0%, rgba(47,2,48,1) 27%, rgba(69,4,99,1) 55%, rgba(104,6,104,1) 93%);
+}
+
+.--add-product-newform{
+    height: auto;
+}
+.--add-product-newform-container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.--add-product-newform-col-0{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    h2{
+        color: white;
+        font-family: 'Goldman';
+    }
+}
+.--add-product-newform-col-1{
+    display: flex;
+    flex-direction: row;
+}
+.--add-product-newform-col-1-interna-1{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+
+}
+.--add-product-newform-col-1-interna-2{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.--add-product-newform-col-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    button{
+        width:11em;
+        height: 2em;
+        color: white;
+        font-size: 1.1rem;
+        font-family: 'Oxanium';
+        outline: none;
+        background-color: transparent;
+        border-radius: 0.3em;
+        border: 2px solid black;
+        box-shadow: 2px 2px 5px black;
+        cursor: pointer;
+    }
+}
+.--add-product-newform-radioTone-select-tone, .--add-product-newform-category{
+    text-align: center;
+}
+
+/*  RADIO TONE INPUT    */
+.--add-product-newform-radioTone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-bottom: 0.75em;
+    .--add-product-newform-radioTone-radioColumn{
+        padding-left:2.5em;
+        padding-right:2.5em;
+    }
+}
+
+.--colum-helper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.--colum-helper-doble{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    div{
+        width: 37.5%;
+        display: flex;
+        flex-direction: column;
+        label{
+            text-align: center;
+        }
+    }
+}
+.--add-product-newform-input-doble{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    input{
+        width: 90%;
+        height: 30px;
+        color:white;
+        font-size: 1rem;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid white;
+        background: rgba(255, 255, 255, 0);
+    }
+}
+.--add-product-newform-col-2{
+    margin: 1em;
+}
+
+/* SELECT CATEGORIE INPUT */
+.--add-product-newform-category{
+    color:black;
+}
+
+/* ERROR */
+.--colum-helper-danger{
+    color:rgb(228, 140, 140);
+    font-size: 0.8rem;
+    font-family: 'Oxanium';
+    text-align: center;
+    -webkit-animation: tiembla 0.2s;
+    animation: tiembla 0.2s;
+}
+
+/*INPUT NAME */
+.--add-product-newform-input{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    input{
+        width: 95%;
+        height: 30px;
+        color:white;
+        font-size: 1rem;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid white;
+        background: rgba(255, 255, 255, 0);
+        &::placeholder{
+            color: rgb(228, 140, 140);
+            font-size: 0.8rem;
+            font-family: 'Oxanium';
+            text-align: center;
+            -webkit-animation: tiembla 0.2s;
+            animation: tiembla 0.2s;
+        }
+    }
+    textarea{
+        width: 95%;
+        height: 2.8em;
+        color:white;
+        font-size: 1rem;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid white;
+        background: rgba(255, 255, 255, 0);
+        &::placeholder{
+            color: rgb(228, 140, 140);
+            font-size: 0.9rem;
+            text-align: center;
+            font-family: 'Oxanium';
+            -webkit-animation: tiembla 0.2s;
+            animation: tiembla 0.2s;
+        }
+    }
+}
+
+.--add-product-newform-category{
+    color:rgb(255, 255, 255);
+    
+    select{
+        background-color: black;
+    }
+}
+.--select{
+        &::placeholder{
+            color: rgb(228, 140, 140);
+            font-size: 0.8rem;
+            font-family: 'Oxanium';
+            -webkit-animation: tiembla 0.2s;
+            animation: tiembla 0.2s;
+        }
+}
+
+@-webkit-keyframes tiembla {
+    0%  { -webkit-transform:rotateZ(-5deg); }
+    50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+    100%{ -webkit-transform:rotateZ( 5deg); }
+}  
+@keyframes tiembla {
+    0%  { -webkit-transform:rotateZ(-5deg); }
+    50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+    100%{ -webkit-transform:rotateZ( 5deg); }
+}

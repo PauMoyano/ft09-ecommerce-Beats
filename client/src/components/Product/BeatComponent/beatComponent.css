@@ -1,0 +1,375 @@
+:root{
+    --beatComponent--main--linear-gradient-one : #830c71;
+    --beatComponent--main--linear-gradient-two : #000000;
+    --beatComponent--main-beatInfo-col-play-icon: #d416cabe;
+    --beatComponent--main-beatInfo-col-author: #ffffff;
+    --beatComponent--main-beatInfo-col-h1:#ffffff;
+    --beatComponent--main-beatActions-col-div:#ffffff;
+}
+
+.beatComponent--main{
+    display:flex;
+    position:relative;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    background: linear-gradient(
+        var(--beatComponent--main--linear-gradient-one),
+        var(--beatComponent--main--linear-gradient-two)
+        );
+    
+}
+.spinnerLoading{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+}
+.beatComponent--main-row{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+
+}
+
+.beatComponent--main-imagen-col{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.beatComponent--main-imagen-col img{
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+    align-self: start;
+}
+
+.spec{
+    display: flex;
+}
+.beatComponent--main-beatInfo-col{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    flex-wrap: wrap;
+}
+.beatComponent--main-beatActions-col-btn{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 250px;
+    margin: 5px;
+    border: none;
+    background-color: #830c71;
+    border-radius: 10px;
+    outline: none;
+    color:antiquewhite;
+    font-size: 1.3rem;
+    text-align: center;
+    justify-content: center;
+
+}
+.beatComponent--main-beatActions-col-button{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+}
+.beatComponent--main-beatActions-col-button-finger{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+}
+.beatComponent--main-beatActions-col-btn span{
+    padding-top: 0px;
+}
+.beatComponent--main-beatActions-col-btn-row{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+    width:100%;
+}
+.button-cart2{
+    font-size: 1rem;
+    padding-top: 5px;
+}
+.beatComponent--main-beatActions-col-btn:hover{
+    height: 60px;
+    width: 270px;
+    margin: 5px;
+    border: none;
+    background-color: #d612f0;
+    border-radius: 10px;
+    outline: none;
+    color:antiquewhite;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor:pointer;
+}
+.beatComponent--main-beatActions-col-btn:active{
+    height: 60px;
+    width: 270px;
+    margin: 5px;
+    border: none;
+    background-color: #3a0641;
+    border-radius: 10px;
+    outline: none;
+    color:antiquewhite;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor:pointer;
+}
+
+.beatComponent--main-beatInfo-col h1{
+    margin:5px;
+    padding-top:10px;
+    text-align: center;
+    font-size:2rem;
+    color:var(--beatComponent--main-beatInfo-col-h1);
+}
+.icon-size{
+    font-size: 5rem;
+    margin-top: 20px;
+    color: var(--beatComponent--main-beatInfo-col-play-icon);
+    background-color: black;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.beatComponent--main-beatInfo-col p{
+    margin:0px;
+    margin-left: 10px;
+    color:var(--beatComponent--main-beatInfo-col-author);
+    font-size:1.2rem;
+}
+.beatComponent--main-beatInfo-col-author{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    color:var(--beatComponent--main-beatInfo-col-author);
+    font-size:1.2rem;
+    padding-bottom: 10px;
+}
+
+.beatComponent--main-beatActions-col{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.finger-up-not-user{
+    color: white;
+    font-size: 3rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.beatComponent--main-beatActions-col .column{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.finger-up{
+    color: white;
+    font-size: 3rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.finger-up2{
+    color: rgb(60, 7, 121);
+    text-shadow: 0px 0px 10px white;
+    font-size: 3rem;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.beatComponent--main-beatActions-col-cat{
+    margin: 6px;
+    padding: 6px;
+    background-color: #000000;
+    color: #830c71;
+    border-radius: 5px;
+}
+.product-likes2{
+    display:flex;
+    width: 100%;
+    align-self:center;
+}
+
+.likes-numbers{
+    display: flex;
+    width: 15px;
+    min-width: 15px;
+    height: 15px;
+    padding: 0.7em;
+    background-color: rgb(89, 48, 112);
+    color: white;
+    font-size: 1rem;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.product-likes{
+    align-self:center;
+    background-color: #830c71;
+    color: white;
+    font-size:1.3rem;
+    margin-left:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100%; 
+}
+.beatComponent--main-beatActions-col-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color:var(--beatComponent--main-beatActions-col-div); 
+}
+.beatComponent--main-beatTags-col{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media(min-width:864px){
+    .beatComponent--main{
+        display:flex;
+        position:relative;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 25px;
+        background: linear-gradient(
+            var(--beatComponent--main--linear-gradient-one),
+            var(--beatComponent--main--linear-gradient-two)
+            );
+    }
+
+    .beatComponent--main-row{
+        display:flex;
+        flex-direction:row;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .beatComponent--main-imagen-col{
+        display:flex;
+        flex-direction: row-reverse;
+        padding-left:15px;
+        width: 22%;
+        justify-content: right;
+        padding-right:50px;
+        align-items: center;
+    
+    }
+
+    .beatComponent--main-beatActions-col-button{
+        display:flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0%;
+    }
+    
+    .beatComponent--main-beatInfo-col{
+        display:flex;
+        width: 50%;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: center;
+        align-content:center;
+    }    
+    .beatComponent--main-beatInfo-col h1{
+        text-align: center;
+    }
+    .beatComponent--main-beatInfo-col-author{
+        display:flex;
+        width: 100%;
+        justify-content: left;
+        padding-left: 3px;
+        align-items: center;
+        align-content:center;
+        
+    }
+    .beatComponent--main-beatActions-col{
+        display:flex;
+        width: 100%;
+        justify-content: left;
+        align-items: center;
+       
+    }
+}
+
+.icons{
+    font-size: 1.3rem;
+    color:white;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.icon-bpm {
+    display: flex;
+    justify-content: baseline;
+    width: 35px;
+    height: 20px;
+    padding-top: 3px;
+    font-size:1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    color:rgb(247, 242, 248);
+}
+
+.snackbar-container{
+    max-width: 150px !important;
+    min-width: 150px !important;
+    width: 150px !important;
+    background-color: rgb(156, 9, 161) !important; 
+    transition: all 500ms ease;
+    transition-property: top, right, bottom, left, opacity;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    min-height: 14px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 22px;
+    padding: 18px 24px;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    border-radius: 5px;
+    z-index: 9999;
+}
+@media(min-width:620px){
+
+}
+@media(max-width:480px){
+    .beatComponent--main-beatActions-col-button{
+        padding-left: 12%;
+    }
+}

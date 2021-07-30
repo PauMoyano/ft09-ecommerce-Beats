@@ -1,0 +1,23 @@
+.--admin--main-panel h1 {
+    margin-top: 1em;
+    color: white;
+    text-align: center;
+}
+.usercard-col-1 h2{
+    color:white;
+}
+
+.usercard-col-1 h3{
+    color:white;
+}
+
+.--admin--main-panel{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.--admin--main-panel img{
+    width: 500px;
+}

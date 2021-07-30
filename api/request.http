@@ -1,0 +1,38 @@
+
+//LIKE FIND BY ID
+GET http://localhost:3001/likes/1
+
+###
+// ALL LIKES
+GET http://localhost:3001/likes
+
+###
+// ALL LIKES OF ONE PRODUCT
+GET http://localhost:3001/likes/2
+
+###
+// POST LIKE
+POST http://localhost:3001/likes/1
+Content-Type: application/json
+
+{
+    "author":"Carlitos",
+    "like":true
+}
+
+###
+// EDIT LIKE (DON'T LIKE)
+PUT http://localhost:3001/likes/1/
+Content-Type: application/json
+{
+    "like":false
+}
+
+###
+// DELETE LIKE
+DELETE http://localhost:3001/likes/1
+Content-Type: application/json
+
+{
+    "like": "delete succesfull"
+}

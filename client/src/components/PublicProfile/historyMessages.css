@@ -1,0 +1,79 @@
+
+.messagesTit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Goldman', cursive;
+}
+.messagesTable{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tableBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 3px rgb(68, 0, 68) solid;
+    margin: 5%;
+    border-radius: 15px;
+    box-shadow: 0 0 12px  rgb(68, 0, 68);
+}
+.tableBox thead{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    border-bottom: 2px rgb(68, 0, 68) solid;
+}
+.tableBox thead th{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.tableBox thead tr{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/*.tableBox thead tr th{
+    
+}*/
+.tableBox thead tr th.userCol{
+    width: 30%;
+    border-right: 1px rgb(68, 0, 68) solid;
+}
+.tableBox tbody{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction:column;
+   
+}
+.tableBox tbody tr{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px rgb(68, 0, 68) solid; 
+}
+.tableBox tbody td{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.tableBox tbody tr td.userCol{
+    width: 30%;
+    border-right: 1px rgb(68, 0, 68) solid;
+}
+/*.tableBox tr{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.tableBox th{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}*/

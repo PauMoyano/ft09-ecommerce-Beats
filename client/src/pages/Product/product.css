@@ -1,0 +1,11 @@
+.product--main{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: black;
+}
+.product--main-col{
+    display: flex;
+    justify-content: center;
+}

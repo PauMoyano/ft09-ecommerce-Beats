@@ -1,0 +1,229 @@
+
+/* Change autocomplete styles in WebKit */
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover, 
+    input:-webkit-autofill:focus{
+    box-sizing: border-box;
+    border: 2px solid rgb(55, 37, 105);
+    -webkit-text-fill-color: rgb(55, 37, 105);
+    box-shadow: 0 0 0px 1000px rgb(5, 5, 5) inset;
+    transition: background-color 5000s ease-in-out 0s;   
+}
+.--LoginCard{
+    width: 100%;
+    display: flex;
+    height: 40em;
+}
+.--LoginAllCard{
+    width: 30em;
+    background-color: rgba(86, 9, 175, 0.527);
+    border-radius: 10px;    
+    box-shadow: 0px 0px 10px rgb(137, 76, 206);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 30px;
+}
+
+.--login-logo{
+    margin-top: 0.05em;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: content-box;
+    justify-content: center;
+    font-family: "Goldman";
+    color: antiquewhite;
+    align-self: center;
+
+}    
+.--login-logo-col{
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.--login-flags{
+    padding-right: 2em;
+    padding-left: 2em;
+    cursor: pointer;
+}
+.--login-flags:hover{
+    position: relative;
+    bottom: 2px;
+}
+.--login-logo-col-link{         
+    text-decoration: none;
+    color: white;
+}
+.--login-logo-col h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 1em;
+    font-size: 2.6rem;
+    text-shadow: 0px 0px 5px rgb(70, 10, 139);
+}
+
+.--LoginCard-form{
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 1rem;
+}
+.name{
+    margin: 5px;
+    text-align: center;
+    color: white;
+    font-family: 'Oxanium', cursive;
+    font-size: 1rem;
+}
+.--LoginCard-form-input{
+    width: 75%;
+    height: 2.5em;
+    box-sizing: border-box;
+    margin-bottom: 1.5em;
+    color: white;
+    border-radius: 0.3em;
+    padding: 0 0 0 5px;
+
+}
+.--LoginCard-form-input:active{
+    background-color: white;
+}
+.--LoginCard-form-input:valid{
+    background-color: rgb(19, 18, 18);
+    border: 1px solid rgb(70, 10, 139);
+}
+.--LoginCard-form-input:invalid{
+    background-color: rgb(19, 18, 18);
+    border: 1px solid rgb(136, 18, 128);
+}
+.--LoginCard-form-input::placeholder{
+    text-align: center;
+    font-family: 'Oxanium', cursive;
+    color: rgba(211, 192, 231, 0.327);
+}
+.--Submit--buttons {
+    margin-top: 1em;
+}
+.--Submit--buttons button{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    font-size: 1rem;
+    border-radius: 0.3em;
+    cursor:pointer;
+    outline: none;  
+    margin-bottom: 0.7em; 
+    font-family: 'Oxanium', 'cursive';    
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(136, 18, 128);
+    padding: 0.3em;
+    align-items: center;
+}
+
+.--Submit--buttons button:hover{
+    background-color: rgb(42, 18, 107);
+}
+
+#google {
+    background-color:#DD4B39 ;
+    background-image: url('../../../assets/images/LoginWithGoogle.png');
+    background-size: 26%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#github:hover{
+    border: 2px solid rgb(59, 57, 57);
+}
+#github {
+    background-color: #444444;
+    background-image: url('../../../assets/images/LoginWithGithub.png');
+    background-size: 26%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#google:hover {
+    border: 2px solid rgb(136, 18, 24);
+}
+
+.foot{
+    width: 100%;
+    text-align: center;
+    justify-content:center;
+    margin: 10px 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Link-footer{
+    width: 100%;
+    font-family: 'Oxanium', cursive; 
+    font-weight: bold;
+    color: rgb(251, 249, 249);
+    text-shadow: 0px 0px 5px rgb(70, 10, 139);
+    text-decoration: none;
+    padding-bottom: 0.5em;
+}
+.Link-footer:hover{
+    color: gray ;
+}
+.signup--footer{
+    width:30%;  
+    text-decoration: none;
+    color:white;
+    border: 2px solid rgb(136, 18, 128);
+    border-radius: 0.3em;
+    margin-top:1em;
+    font-size: 1rem;
+    padding-bottom: 0.4em;   
+    padding-top: 0.4em;
+    font-family: 'Oxanium', cursive; 
+}
+.signup--footer:hover{
+    background-color: rgb(42, 18, 107);
+}
+@media(max-width:499px){
+    .--LoginAllCard{
+        width: 90%;
+        
+    }
+    .--LoginCard-form-input{
+        width: 100%;
+        font-size: 1.1rem; 
+    }
+    .--login-flags{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .--login-flags img{
+        width:30px;
+        height: 30px;
+    }
+    .--login-logo-col h1{
+        font-size: 1.6rem;
+    }
+    .--login-logo-col-link img{
+        width: 45px;
+        height: 35px;
+    }
+    .--Submit--buttons button{
+        width: 80%;
+        font-size: 1.2rem; 
+    }
+    .signup--footer{
+        display: none;
+    }
+    .--LoginCard-form p{
+        font-size: 1.3rem;
+    }
+    .Link-footer{
+        font-size: 1.1rem;
+    }
+
+}

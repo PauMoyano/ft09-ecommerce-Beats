@@ -1,0 +1,163 @@
+$title-color : white;
+$primary-color: black;
+$background-color: rgb(68, 6, 60);
+$font-label: 'Oxanium';
+$font-title: 'Goldman';
+$font-size-label: 1.3rem;
+$font-size-title: 1.5rem;
+$placeholder-size: 0.9rem;
+.--admin-ofert-main-col{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.--add-oferts-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    margin-bottom:1em;
+    h1{
+        text-align:center;
+        color:$title-color;
+        padding: 0;
+        margin: 0;
+        margin-bottom:1em;
+        font-size: $font-size-title;
+        font-family: $font-title;
+    }
+}
+.--add-oferts-form{
+    width: 27em;
+    margin: auto;
+    background: rgb(1,1,0);
+    background: linear-gradient(180deg, rgba(1,1,0,0) 0%, rgba(47,2,48,1) 27%, rgba(69,4,99,1) 55%, rgba(104,6,104,1) 93%);
+    border-radius: 1em;
+    padding-bottom: 2em;
+    form{
+        width: 100%;  
+        div{
+            display: flex;
+            flex-direction: column; 
+            label{
+                color: $title-color;
+                text-align:center;
+                font-family: $font-label;
+                font-size: $font-size-label;
+                padding-bottom: 1em;
+                padding-top: 1em;
+            }
+            input{
+                width: 75%;
+                background-color: transparent;
+                outline: none;
+                border: none;
+                border-bottom: 2px solid gray;
+                margin-left: auto;
+                margin-right: auto;
+                color: white;
+                font-size: 1.3rem;
+            }::placeholder{
+                color: gray;
+                text-align: center;
+                font-family: $font-label;
+                font-size: $placeholder-size;
+                }
+            span{
+                margin-top: 1rem;
+                text-align: center;
+                font-family: $font-title;
+                font-size: 0.9rem;
+                color: rgb(255, 21, 21);
+                -webkit-animation: tiembla 0.2s;
+                animation: tiembla 0.2s;
+            }
+            select{
+                width: 60%;
+                height: 2em;
+                font-size: $font-size-label;
+                color: $title-color;
+                font-family: $font-label;
+                outline: none;
+                cursor: pointer;
+                margin-left: 50%;
+                transform: translateX(-50%);
+                background-color: rgba(28, 5, 49, 0.4);
+                border:2px solid black;
+                border-radius: 0.3em;
+            }      
+        }
+
+    }
+    button{
+        width:8em;
+        margin-top: 2em;
+        margin-left:50%;
+        transform: translateX(-50%);
+        font-family: $font-label;
+        color: $title-color;
+        font-size: 1.2rem;
+        outline: none;
+        background-color: transparent;
+        border: 2px solid black;
+        border-radius: 0.3em;
+        box-shadow: 2px 2px 5px black;
+        cursor: pointer;
+        img{
+           width:1.5em; 
+        }
+        &:active{
+            box-shadow: none; 
+        }
+    }
+}
+@-webkit-keyframes tiembla {
+    0%  { -webkit-transform:rotateZ(-5deg); }
+    50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+    100%{ -webkit-transform:rotateZ( 5deg); }
+}  
+@keyframes tiembla {
+    0%  { -webkit-transform:rotateZ(-5deg); }
+    50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+    100%{ -webkit-transform:rotateZ( 5deg); }
+}
+
+.--add-oferts-homer{
+    position: fixed;
+    bottom: -350px;
+    right: 15px;
+    img{
+        width: 170px;
+        border-radius: 50%;
+        height: 140px;
+        border: 8px solid rgb(102, 5, 102);
+
+    }
+    -webkit-animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+            animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+}
+
+
+ @-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+    100% {
+      -webkit-transform: translateY(-350px);
+              transform: translateY(-350px);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+    100% {
+      -webkit-transform: translateY(-350px);
+              transform: translateY(-350px);
+    }
+  }
