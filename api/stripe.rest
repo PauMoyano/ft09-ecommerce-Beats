@@ -11,10 +11,10 @@ POST http://localhost:3001/customers/create
 content-type: application/json
 
 {
-      "email":"matt@correo.com",
-      "description": "ojalá terminemos esto rapido",
-      "phone": 1169047409,
-      "address": "crisantemo 6521",
+      "email":"#",
+      "description": "#",
+      "phone": 115000000,
+      "address": "prueba 6521",
       "order_id": "87654",
       "subscription_mode": "RAT",
       "suscription_time": "01/04/2021"
